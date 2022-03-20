@@ -1,13 +1,15 @@
 
-import "../css/register.css";
+import style from "../css/register.module.css";
 import React from "react";
+import {useNavigate} from "react-router-dom"
 
 
 
 
 function Register() {
+  const history=useNavigate()
     function handleclick(){
-        
+        history("/personalinfo")
     }
 
 
@@ -19,18 +21,18 @@ function Register() {
         //put both element in one frame(section)
       }
       <section>
-        <div className="container2"></div>
+        <div className={style.container2}></div>
       </section>
 
-      <section className="login">
-        <div className="container1">
-          <div className="Box2">
-            <h1>Registration </h1>
+      <section className={style.login}>
+        <div className={style.container1}>
+          <div className={style.Box2}>
+            <h1 className={style.a1}>Registration </h1>
             <h4>Email Address</h4>
             <form action="">
               <input
                 type="email"
-                className="email"
+                className={style.email}
                 placeholder="Enter Your Email"
               />
             </form>
@@ -39,7 +41,7 @@ function Register() {
             <form action="">
               <input
                 type="password"
-                className="password"
+                className={style.password}
                 placeholder="Enter Password"
               />
             </form>
@@ -48,17 +50,17 @@ function Register() {
             <form action="">
               <input
                 type="cpassword"
-                className="cpassword"
+                className={style.cpassword}
                 placeholder="Enter Confirm Password"
               />
             </form>
 
-            <div className="cheak">
+            <div className={style.cheak}>
               <input type="checkbox" id="agree" />
               <label for="agree">I agree, all terms and Conditions</label>
             </div>
 
-            <button className="btn"onClick={handleclick}>Next</button>
+            <button className={style.btn}onClick={handleclick}>Next</button>
           </div>
         </div>
       </section>

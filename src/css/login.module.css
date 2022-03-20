@@ -1,0 +1,74 @@
+
+
+.container1{
+    width: 60%;
+    margin: auto; 
+    height: 15cm;
+    background: -webkit-linear-gradient(left,#12CBC4,#2e86de);
+    /* background-color: #12CBC4; */
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 25px;
+
+}
+.Box1{
+    float: left;
+    margin-top: 4.7%;
+    margin-left: 3.5%;
+    
+    
+}
+.Box2{
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding-left: 3.5%;
+    padding-right: 1%;
+    padding-top: 3%;
+    background-color: white;
+    height: 450px;
+    border-radius: 15px;
+    
+}
+.email{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-top: 0.5cm;
+    border-radius: 7px;
+    
+    
+    
+}
+
+.password{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-top: 1cm;
+    border-radius: 7px;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    margin-top: 7.5%;
+    background: -webkit-linear-gradient(left,#12CBC4,#2e86de);
+    /* background-color: rgb(95, 169, 173); */
+    color: white;
+    font-size: 0.4cm;
+    border-radius: 7px;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+    color: #086dd3;
+}
+
