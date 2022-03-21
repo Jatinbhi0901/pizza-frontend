@@ -3,8 +3,6 @@
     margin: auto; 
     height: 15cm;
     background: -webkit-linear-gradient(left,#12CBC4,#2e86de);
-    /* background: -webkit-linear-gradient(left,#a445b2,#fa4299); */
-    /* background-color: rgb(95, 169, 173); */
     text-align: center;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -17,8 +15,6 @@
     margin: auto; 
     height: 1.7cm;
     background: -webkit-linear-gradient(left,#12CBC4,#2e86de);
-    /* background: -webkit-linear-gradient(left,#a445b2,#fa4299); */
-    /* background-color: rgb(95, 169, 173); */
     margin-top: 3%;
     text-align: center;
     border-top-left-radius: 25px;
@@ -63,8 +59,6 @@
     text-align: center;
     margin-top: 4%;
     margin-bottom: 6%;
-    /* background: -webkit-linear-gradient(left,#a445b2,#fa4299); */
-    /* background-color: rgb(95, 169, 173); */
     background: -webkit-linear-gradient(left,#12CBC4,#2e86de);
     color: white;
     font-size: 0.4cm;
@@ -77,7 +71,7 @@
     font-weight: bold;
     margin-top: -4%;
 }
-h4{
+.heading{
     font-size: 0.4cm;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
