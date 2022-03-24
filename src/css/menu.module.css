@@ -1,0 +1,33 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.explore{
+    width: 98%;
+    background-color: aqua;
+    margin: auto;
+    
+}
+.exploremenu{
+    font-size: 25px;
+    text-align: left;
+    
+    
+}
+.row1{
+    text-align: center;
+    display: flex;
+    gap: 4rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    
+    
+}
+.imgresponsive{
+    border-radius: 70px;
+}
+.heading{
+    color: black;
+    font-size: 20px;
+}
+
+    

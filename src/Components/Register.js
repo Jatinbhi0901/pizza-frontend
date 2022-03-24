@@ -1,6 +1,6 @@
 import style from "../css/register.module.css";
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 import swal from "sweetalert";
 
 function Register() {
@@ -40,7 +40,7 @@ function Register() {
               <input
                 type="email"
                 className={style.email}
-                placeholder="Enter Your Email"
+                placeholder="Enter Email"
               />
 
               <h4 className={style.heading}>Password</h4>

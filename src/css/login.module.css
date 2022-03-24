@@ -6,7 +6,6 @@
     height: 12.8cm;
     background: -webkit-linear-gradient(left,#12CBC4,#2e86de);
     margin-top: 5%;
-    text-align: center;
     border-radius: 25px;
     display: flex;
     gap: 2.5rem;
@@ -61,7 +60,7 @@
     font-size: 0.4cm;
     border-radius: 7px;
 }
-h1{
+.sign{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 1rem;
@@ -70,9 +69,6 @@ h1{
 p{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-a:hover{
-    color: #086dd3;
+    font-size: 17px;
 }
 

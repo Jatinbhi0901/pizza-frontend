@@ -1,9 +1,31 @@
 import React from "react";
 import style from "../css/login.module.css";
 import loginimage from "../Images/main.jpg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import swal from "sweetalert";
 
 function Login() {
+  const history = useNavigate();
+  function match() {
+    history("/homepage");
+  }
+
+  function handle(e) {
+    e.preventDefault();
+    swal({
+      title: "Login Successful",
+      text: "Good job!",
+      icon: "success",
+      button: "Ok",
+    }).then(match);
+
+    // swal({
+    //   title: "Login Failed",
+    //   icon: "error",
+    //   button: "Ok",
+    // })
+  }
+
   return (
     <>
       <section className={style.login}>
@@ -28,14 +50,18 @@ function Login() {
                 placeholder="Enter Password"
               />
 
-              <input type="button" className={style.btn} value="Submit" />
+              <button className={style.btn} onClick={handle}>
+                Submit
+              </button>
+              <br></br>
 
               <p className={style.abc}>
-                <a href="#">Forget Password</a>
-              </p>
-
-              <p className={style.abc}>
-                <Link to="/register">Don't have account? Create account</Link>
+                <Link to="">Forget Password</Link>
+                <br></br>
+                <br></br>
+                <Link to="/register" className={style.reg}>
+                  Don't have account? Create account
+                </Link>
               </p>
             </form>
           </div>
