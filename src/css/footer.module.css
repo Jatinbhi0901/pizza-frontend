@@ -1,0 +1,37 @@
+*{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.footer{
+    width: 98%;
+    margin: auto;
+    background: -webkit-linear-gradient(left, #12cbc4, #2e86de, #a55eea);
+    padding-top: 2rem;
+}
+.f2:hover{
+    color: white;
+    
+}
+.f2{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 1.5rem;
+    color: black;
+}
+
+.f3{
+    padding: 1rem;
+}
+.social{
+    padding-top: 1rem;
+}
+.copyright{
+    font-weight: bold ;
+}
+.pizzapalace{
+    font-size: 20px;
+    font-weight: bold ;
+    color: #c23616;
+    padding-bottom: 1.5rem;
+}
