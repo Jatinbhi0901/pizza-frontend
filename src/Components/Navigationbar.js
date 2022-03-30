@@ -50,13 +50,13 @@ function navigationbar() {
           </div>
 
           <div className={style.box4}>
-            <input type="radio" id="1" />
+            <input type="radio" id="1" name="qw"/>
             <label htmlFor="1">Delivery</label>
 
-            <input type="radio" id="2" />
+            <input type="radio" id="2"name="qw" />
             <label htmlFor="2">Dine-in</label>
 
-            <input type="radio" id="3" />
+            <input type="radio" id="3"name="qw" />
             <label htmlFor="3">Take-away</label>
           </div>
 

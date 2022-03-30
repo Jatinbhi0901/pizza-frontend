@@ -1,7 +1,8 @@
 import style from "../css/register.module.css";
 import React from "react";
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import swal from "sweetalert";
+import registerschema from "../Validations/RegisterValidation";
 
 function Register() {
   const history = useNavigate();
@@ -11,14 +12,33 @@ function Register() {
     }
   }
 
-  function handleclick(e) {
+  async function RegisterUser(e) {
     e.preventDefault();
-    swal({
-      title: "Registration Successful",
-      text: "Good job!",
-      icon: "success",
-      button: "Ok",
-    }).then(ok);
+    let formData = {
+      email: e.target[0].value,
+      password: e.target[1].value,
+      passwordConfirmation: e.target[2].value,
+      // cheackbox: e.target[3].value
+    };
+    const isValid = await registerschema.isValid(formData);
+
+    if (isValid) {
+      swal({
+        title: "Registration Successful",
+        text: "Good job!",
+        icon: "success",
+        button: "Ok",
+      }).then(ok);
+      console.log(formData);
+    } else {
+      swal({
+        title: "Registration Failed",
+        text: "Atleast one capital letter and one special character for password",
+        icon: "error",
+        button: "Ok",
+      });
+      console.log(formData);
+    }
   }
 
   return (
@@ -32,7 +52,7 @@ function Register() {
 
       <section className={style.login}>
         <div className={style.container1}>
-          <form action="">
+          <form onSubmit={RegisterUser}>
             <div className={style.Box2}>
               <h1 className={style.a1}>Registration </h1>
               <h4 className={style.heading}>Email Address</h4>
@@ -62,7 +82,7 @@ function Register() {
                 <label htmlFor="agree">I agree, all terms and Conditions</label>
               </div>
 
-              <button className={style.btn} onClick={handleclick}>
+              <button className={style.btn} type="submit">
                 Register
               </button>
             </div>

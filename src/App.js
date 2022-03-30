@@ -6,6 +6,8 @@ import Navigationbar from "./Components/Navigationbar";
 import Homepage from "./Components/Homepage";
 import Footer from "./Components/Footer"
 import Menu from "./Components/Menu"
+import QWER from "./Components/Imp"
+import  Profile from "./Components/Profile";
 
 
 
@@ -20,6 +22,9 @@ function App() {
             <Route path="/homepage" element={ <Homepage/>}/>
             <Route path="/footer" element={ <Footer/>}/> 
             <Route path="/menu" element={ <Menu/>}/> 
+            <Route path="/profile" element={ <Profile/>}/> 
+
+            <Route path="/imp" element={ <QWER/>}/> 
             
         </Routes>
       </BrowserRouter>

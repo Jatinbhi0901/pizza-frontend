@@ -3,27 +3,36 @@ import style from "../css/login.module.css";
 import loginimage from "../Images/main.jpg";
 import { Link, useNavigate } from "react-router-dom";
 import swal from "sweetalert";
+import loginschema from "../Validations/LoginValidation";
 
 function Login() {
   const history = useNavigate();
   function match() {
     history("/homepage");
   }
-
-  function handle(e) {
-    e.preventDefault();
-    swal({
-      title: "Login Successful",
-      text: "Good job!",
-      icon: "success",
-      button: "Ok",
-    }).then(match);
-
-    // swal({
-    //   title: "Login Failed",
-    //   icon: "error",
-    //   button: "Ok",
-    // })
+  async function CreateUser(event) {
+    event.preventDefault();
+    let formData = {
+      email: event.target[0].value,
+      password: event.target[1].value,
+    };
+    const isValid = await loginschema.isValid(formData);
+    if (isValid) {
+      swal({
+        title: "Login Successful",
+        text: "Good job!",
+        icon: "success",
+        button: "Ok",
+      }).then(match);
+      console.log(formData);
+    } else {
+      swal({
+        title: "Invalid Credentials",
+        icon: "error",
+        button: "Ok",
+      });
+      console.log(formData);
+    }
   }
 
   return (
@@ -37,7 +46,7 @@ function Login() {
           <div className={style.Box2}>
             <h1 className={style.sign}>Sign In</h1>
 
-            <form action="">
+            <form onSubmit={CreateUser}>
               <input
                 type="email"
                 className={style.email}
@@ -50,7 +59,7 @@ function Login() {
                 placeholder="Enter Password"
               />
 
-              <button className={style.btn} onClick={handle}>
+              <button className={style.btn} type="submit">
                 Submit
               </button>
               <br></br>
