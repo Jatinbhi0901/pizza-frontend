@@ -3,6 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import swal from "sweetalert";
 import registerschema from "../Validations/RegisterValidation";
+import axios from "axios";
 
 function Register() {
   const history = useNavigate();
@@ -23,6 +24,15 @@ function Register() {
     const isValid = await registerschema.isValid(formData);
 
     if (isValid) {
+      const res = await axios.post(
+        "http://localhost:5000/register/newRegister",
+        {
+          email: formData.email,
+          password: formData.password,
+          confirmPassword: formData.passwordConfirmation,
+        }
+      );
+      console.log(res);
       swal({
         title: "Registration Successful",
         text: "Good job!",
@@ -78,7 +88,7 @@ function Register() {
               />
 
               <div className={style.cheak}>
-                <input type="checkbox" id="agree" />
+                <input type="checkbox" id="agree" checked={true} readOnly />
                 <label htmlFor="agree">I agree, all terms and Conditions</label>
               </div>
 

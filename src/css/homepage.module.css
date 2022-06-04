@@ -1,0 +1,195 @@
+body {
+    background-color: #f2f2f2;
+}
+
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.section1 {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    background-color: aqua;
+    padding: 15px;
+}
+
+.item1 {
+    width: 300px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-left: 7px;
+}
+
+.item2 {
+    width: 300px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.item3 {
+    width: 300px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.item4 {
+    width: 300px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.border {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.line {
+    border-top: 0.1px solid #D3D3D3;
+    width: 270px;
+    margin-left: 15px;
+}
+
+.heading1 {
+    text-align: left;
+    margin-left: 10px;
+    font-size: large;
+}
+
+.para1 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.addtocart {
+    width: 100px;
+    height: 30px;
+    color: green;
+    border-color: green;
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sizebase {
+    display: flex;
+    gap: 80px;
+}
+
+.size {
+    text-align: left;
+    margin-left: 17px;
+}
+
+.crust {
+    margin-left: -60px;
+}
+
+.ntext1 {
+    width: 105px;
+    border: none;
+    text-align: left;
+    margin-left: 12px;
+    position: relative;
+    top: -10px;
+    
+
+}
+
+.ntext2 {
+    width: 80px;
+    border: none;
+    margin-left: -20px;
+    text-align: left;
+    position: relative;
+    top: -10px;
+}
+
+
+
+
+
+ul {
+    list-style: none;
+    text-align: left;
+    background-color: white;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+
+
+}
+
+ul li .dr {
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+
+}
+
+ul li .dr:hover {
+    color: #fff;
+    background-color: #f2f2f2;
+    color: green;
+
+}
+
+ul li ul.dropdown {
+    min-width: 120px;
+    background: #f2f2f2;
+    color: black;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    margin-left: 20px;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+.dr {
+    text-align: left;
+    border: none;
+}
+
+
+ul li ul.dropdown2 {
+    min-width: 120px;
+    background: #f2f2f2;
+    color: black;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    margin-left: -20px;
+}
+
+ul li:hover ul.dropdown2 {
+    display: block;
+}
+
+ul li ul.dropdown2 li {
+    display: block;
+}

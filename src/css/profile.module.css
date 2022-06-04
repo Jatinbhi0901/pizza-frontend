@@ -4,7 +4,7 @@
 .p1{
     width: 250px;
     background-image: linear-gradient(to bottom, #12cbc4, #00bdd4, #00ade0, #009be4, #2e86de);
-
+ margin-top: 1rem;
     height: 42rem;
 }
 .im{

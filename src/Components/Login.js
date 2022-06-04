@@ -4,6 +4,7 @@ import loginimage from "../Images/main.jpg";
 import { Link, useNavigate } from "react-router-dom";
 import swal from "sweetalert";
 import loginschema from "../Validations/LoginValidation";
+import axios from "axios";
 
 function Login() {
   const history = useNavigate();
@@ -18,6 +19,7 @@ function Login() {
     };
     const isValid = await loginschema.isValid(formData);
     if (isValid) {
+      const res= await axios.post("http://localhost:5000/login/loginDetails",formData);
       swal({
         title: "Login Successful",
         text: "Good job!",
