@@ -41,10 +41,6 @@ import brownie from "../Images/items/browniefantasy.png";
 import mousse from "../Images/items/moussecake.png";
 import redvelvet from "../Images/items/redvelevt.jpg";
 
-
-
-
-
 import { useState } from "react";
 
 function Homepage() {
@@ -243,7 +239,16 @@ function Homepage() {
   };
   return (
     <>
-      <section className={style.bestsellers} id="#one">
+    <section className={style.navbarsecond}>
+    <a href="#one"className={style.move1}>BESTSELLERS</a>
+    <a href="#two"className={style.move}>VEG PIZZA</a>
+    <a href="#three"className={style.move}>NON-VEG PIZZA</a>
+    <a href="#four"className={style.move}>BEVERAGES</a>
+    <a href="#five"className={style.move}>PARTY COMBOS</a>
+    <a href="#six"className={style.move}>DESSERT</a>
+    
+    </section>
+      <section className={style.bestsellers} id="one">
         <div className={style.linemain}></div>
         <div className={style.mainhead}>BESTSELLERS</div>
         <section className={style.row1}>
@@ -1012,9 +1017,34 @@ function Homepage() {
         </section>
       </section>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       {/* new section starts from here */}
 
-      <section className={style.bestsellers} id="#two">
+      <section className={style.bestsellers} id="two">
         <div className={style.linemain}></div>
         <div className={style.mainhead}>VEG PIZZA</div>
         <section className={style.row1}>
@@ -2016,7 +2046,7 @@ function Homepage() {
 
 
       {/* new section starts from here */}
-      <section className={style.bestsellers} id="#three">
+      <section className={style.bestsellers} id="three">
         <div className={style.linemain}></div>
         <div className={style.mainhead}>NON-VEG PIZZA</div>
         <section className={style.row1}>
@@ -2571,7 +2601,7 @@ function Homepage() {
 
 
       {/* new section starts from here */}
-      <section className={style.bestsellers} id="#four">
+      <section className={style.bestsellers} id="four">
         <div className={style.linemain}></div>
         <div className={style.mainhead}>BEVERAGES</div>
         <section className={style.row1}>
@@ -2670,7 +2700,7 @@ function Homepage() {
 
 
        {/* new section starts from here */}
-       <section className={style.bestsellers} id="#fifth">
+       <section className={style.bestsellers} id="five">
         <div className={style.linemain}></div>
         <div className={style.mainhead}>PARTY COMBOS</div>
         <section className={style.row1}>
@@ -2769,7 +2799,7 @@ function Homepage() {
 
 
 {/* new section starts from here */}
-<section className={style.bestsellers} id="#sixth">
+<section className={style.bestsellers} id="six">
         <div className={style.linemain}></div>
         <div className={style.mainhead}>DESSERT</div>
         <section className={style.row1}>
