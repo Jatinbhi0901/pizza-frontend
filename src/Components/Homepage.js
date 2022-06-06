@@ -36,6 +36,13 @@ import vegdeluxcombo from "../Images/items/vegdeluxcombo.png";
 import nonvegdeluxcombo from "../Images/items/nonvegdeluxcombo.png";
 import nonvegpremiumcombo from "../Images/items/nonvegpremiumcombo.png";
 
+import chocolava from "../Images/items/chocolava.png";
+import brownie from "../Images/items/browniefantasy.png";
+import mousse from "../Images/items/moussecake.png";
+import redvelvet from "../Images/items/redvelevt.jpg";
+
+
+
 
 
 import { useState } from "react";
@@ -2761,7 +2768,83 @@ function Homepage() {
       </section>
 
 
-      
+{/* new section starts from here */}
+<section className={style.bestsellers} id="#sixth">
+        <div className={style.linemain}></div>
+        <div className={style.mainhead}>DESSERT</div>
+        <section className={style.row1}>
+          <div className={style.item1}>
+            <img
+              src={redvelvet}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Red Velvet Lava Cake</h2>
+            <p className={style.para1}>
+            A truly indulgent experience with sweet and rich red velvet cake on a creamy cheese flavoured base
+            </p>
+
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+          {/* newone */}
+          <div className={style.item2}>
+            <img
+              src={chocolava}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Choco Lava Cake</h2>
+            <p className={style.para1}>
+            Chocolate lovers delight! Indulgent, gooey molten lava inside chocolate cake
+            </p>
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+          {/* newone */}
+          <div className={style.item3}>
+            <img
+              src={mousse}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Butterscotch Mousse Cake</h2>
+            <p className={style.para1}>
+            Sweet temptation! Butterscotch flavored mousse
+            </p>
+            <br></br>
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+          {/* newone */}
+          <div className={style.item4}>
+            <img
+              src={brownie}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Brownie Fantasy</h2>
+            <p className={style.para1}>
+            Sweet Temptation! Hot Chocolate Brownie drizzled with chocolate fudge sauce
+            </p>
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+        </section>
+      </section>
+
     </>
   );
 }
