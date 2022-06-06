@@ -24,6 +24,14 @@ import chickengoldendelight from "../Images/items/chickengoldendelight.png";
 import indichickentikka from "../Images/items/indichickentikka.png";
 import nonvegsupreme from "../Images/items/nonvegsupreme.png";
 
+import pepsi from "../Images/items/pepsi.jpg";
+import mirinda from "../Images/items/mirinda.png";
+import pepsiblack from "../Images/items/pepsiblack.png";
+import nimbooz from "../Images/items/nimbooz.jpg";
+import bailyone from "../Images/items/BailleyONE.jpg";
+
+
+
 import { useState } from "react";
 
 function Homepage() {
@@ -2538,6 +2546,106 @@ function Homepage() {
               </ul>
             </div>
 
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+
+          
+        </section>
+      </section>
+
+
+
+      {/* new section starts from here */}
+      <section className={style.bestsellers} id="#four">
+        <div className={style.linemain}></div>
+        <div className={style.mainhead}>BEVERAGES</div>
+        <section className={style.row1}>
+          <div className={style.item1}>
+            <img
+              src={pepsi}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Pepsi (500ml)</h2>
+            <p className={style.para1}>
+            Sparkling and Refreshing Beverage
+            </p>
+
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+          {/* newone */}
+          <div className={style.item2}>
+            <img
+              src={mirinda}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Mirinda (500ml)</h2>
+            <p className={style.para1}>
+            Delicious Orange Flavoured beverage
+            </p>
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+          {/* newone */}
+          <div className={style.item3}>
+            <img
+              src={pepsiblack}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Pepsi Black Can</h2>
+            <p className={style.para1}>
+            Maximum Taste Zero Calories
+            </p>
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+          {/* newone */}
+          <div className={style.item4}>
+            <img
+              src={nimbooz}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Nimbooz ( 350ml )</h2>
+            <p className={style.para1}>
+            Nimbooz ( 350ml )
+            </p>
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+        </section>
+
+        <section className={style.row1}>
+          {/* newone */}
+          <div className={style.item5}>
+            <img
+              src={bailyone}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Bailley One (500ml)</h2>
+            <p className={style.para1}>
+            Packaged Drinking Water
+            </p>
             <button className={style.addtocart} type="submit">
               ADD TO CART
             </button>
