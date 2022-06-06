@@ -30,6 +30,12 @@ import pepsiblack from "../Images/items/pepsiblack.png";
 import nimbooz from "../Images/items/nimbooz.jpg";
 import bailyone from "../Images/items/BailleyONE.jpg";
 
+import vegvaluecombo from "../Images/items/vegvaluecombo.png";
+import nonvegvaluecombo from "../Images/items/nonvegvaluecombo.png";
+import vegdeluxcombo from "../Images/items/vegdeluxcombo.png";
+import nonvegdeluxcombo from "../Images/items/nonvegdeluxcombo.png";
+import nonvegpremiumcombo from "../Images/items/nonvegpremiumcombo.png";
+
 
 
 import { useState } from "react";
@@ -2654,6 +2660,108 @@ function Homepage() {
           
         </section>
       </section>
+
+
+       {/* new section starts from here */}
+       <section className={style.bestsellers} id="#fifth">
+        <div className={style.linemain}></div>
+        <div className={style.mainhead}>PARTY COMBOS</div>
+        <section className={style.row1}>
+          <div className={style.item1}>
+            <img
+              src={vegvaluecombo}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Family House Party – Veg Value Combo</h2>
+            <p className={style.para1}>
+            Large Fresh Veggie Pizza + Garlic Bread With Cheesy Dip + 4 Brownie Fantasy + 2 Pepsi
+            </p>
+
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+          {/* newone */}
+          <div className={style.item2}>
+            <img
+              src={nonvegvaluecombo}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Family House Party – Non Veg Value Combo</h2>
+            <p className={style.para1}>
+            Large Pepper BBQ Chicken Pizza + Garlic Bread + 4 Brownie Fantasy + 2 Pepsi
+            </p>
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+          {/* newone */}
+          <div className={style.item3}>
+            <img
+              src={vegdeluxcombo}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Family House Party – Veg Deluxe Combo</h2>
+            <p className={style.para1}>
+            Large Veg Extravaganza Pizza + 2 Garlic Bread + 4 Choco lava cake + 2 Pepsi
+            </p>
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+          {/* newone */}
+          <div className={style.item4}>
+            <img
+              src={nonvegdeluxcombo}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Family House Party – Non Veg Deluxe Combo</h2>
+            <p className={style.para1}>
+            Large Chicken Golden Delight Pizza + 2 Garlic Bread + 4 Choco lava cake + 2 Pepsi
+            </p>
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+        </section>
+
+        <section className={style.row1}>
+          {/* newone */}
+          <div className={style.item5}>
+            <img
+              src={nonvegpremiumcombo}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Family House Party – Non Veg Premium Combo</h2>
+            <p className={style.para1}>
+            Large Non Veg Supreme Pizza + 2 Stuffed Garlic Bread + 4 Choco lava cake + 2 Pepsi
+            </p>
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+
+          
+        </section>
+      </section>
+
+
+      
     </>
   );
 }
