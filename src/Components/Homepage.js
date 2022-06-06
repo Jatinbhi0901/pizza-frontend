@@ -260,6 +260,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Margherita</h2>
             <p className={style.para1}>
               Classic delight with 100% real mozzarella cheese
@@ -368,6 +372,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Cheese n Corn</h2>
             <p className={style.para1}>
               A delectable combination of sweet And juicy golden corn
@@ -476,9 +484,13 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Farmhouse</h2>
             <p className={style.para1}>
-              Delightful combination of onion, capsicum, tomato And mushroom
+            Delightful combination of onion, capsicum, tomato and mushroom
             </p>
             <div className={style.line}></div>
             <div className={style.sizebase}>
@@ -584,10 +596,13 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Peppy Paneer</h2>
             <p className={style.para1}>
-              Flavorful trio of juicy paneer, crisp capsicum with spicy red
-              paprika
+            Flavorful trio of juicy paneer, crisp capsicum with spicy red paprika
             </p>
             <div className={style.line}></div>
             <div className={style.sizebase}>
@@ -696,6 +711,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Veggie Paradise</h2>
             <p className={style.para1}>
               The awesome foursome! Golden corn, black olives, capsicum, red
@@ -806,6 +825,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Chicken Sausage</h2>
             <p className={style.para1}>
               American classic! Spicy, herbed chicken sausage on pizza
@@ -915,6 +938,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Pepper Barbecue Chicken</h2>
             <p className={style.para1}>
               Pepper barbecue chicken for that extra zing
@@ -1056,6 +1083,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Capsicum</h2>
             <p className={style.para1}>
               Fresh and crisp capsicum for the perfect crunch in pizza
@@ -1164,6 +1195,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Golden Corn</h2>
             <p className={style.para1}>
               Sweet and juicy golden corn for that lipsmacking taste
@@ -1272,6 +1307,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Onion</h2>
             <p className={style.para1}>
               Crunchy onion on a cheesy base. The pizza mania classic
@@ -1380,6 +1419,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Paneer and Onion</h2>
             <p className={style.para1}>
               Creamy Paneer and Onion with cheese and tangy sauce
@@ -1491,6 +1534,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Tomato</h2>
             <p className={style.para1}>
               Juicy tomato in a flavourful combination with cheese and tangy
@@ -1601,6 +1648,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Paneer Makhani</h2>
             <p className={style.para1}>
               Flavorful twist of spicy makhani sauce topped with paneer and
@@ -1711,6 +1762,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Indi Tandoori Paneer</h2>
             <p className={style.para1}>
               It is hot. It is spicy. It is oh-so-Indian. Tandoori paneer with
@@ -1821,6 +1876,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Fresh Veggie</h2>
             <p className={style.para1}>
               Delectable combination of onion and capsicum, a veggie lovers pick including mozzarella cheese
@@ -1932,6 +1991,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Mexican Green Wave</h2>
             <p className={style.para1}>
             Mexican herbs sprinkled on onion, capsicum, tomato and jalapeno
@@ -2058,6 +2121,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Chicken Dominator</h2>
             <p className={style.para1}>
             Loaded with double pepper barbecue chicken, peri-peri chicken, chicken tikka and grilled chicken
@@ -2166,6 +2233,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Chicken Fiesta</h2>
             <p className={style.para1}>
             Grilled chicken rashers, peri-peri chicken, onion and capsicum, a complete fiesta
@@ -2274,6 +2345,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Chicken Golden Delight</h2>
             <p className={style.para1}>
             Double pepper barbecue chicken, golden corn and extra cheese, true delight
@@ -2382,6 +2457,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Indi Chicken Tikka</h2>
             <p className={style.para1}>
             The wholesome flavour of tandoori masala with Chicken tikka, onion, red paprika and mint mayo
@@ -2493,6 +2572,10 @@ function Homepage() {
               width="300px"
               height="150px"
             />
+            <input
+                    type="text"
+                    className={style.price}
+                  />
             <h2 className={style.heading1}>Non Veg Supreme</h2>
             <p className={style.para1}>
             Supreme combination of black olives, onion, capsicum, grilled mushroom, pepper barbecue chicken, peri-peri chicken
@@ -2613,7 +2696,8 @@ function Homepage() {
               width="300px"
               height="150px"
             />
-            <h2 className={style.heading1}>Pepsi (500ml)</h2>
+             <h2 className={style.price2}>₹ 60</h2> 
+            <h2 className={style.heading2}>Pepsi (500ml)</h2>
             <p className={style.para1}>
             Sparkling and Refreshing Beverage
             </p>
@@ -2631,7 +2715,8 @@ function Homepage() {
               width="300px"
               height="150px"
             />
-            <h2 className={style.heading1}>Mirinda (500ml)</h2>
+             <h2 className={style.price2}>₹ 60</h2> 
+            <h2 className={style.heading2}>Mirinda (500ml)</h2>
             <p className={style.para1}>
             Delicious Orange Flavoured beverage
             </p>
@@ -2648,7 +2733,8 @@ function Homepage() {
               width="300px"
               height="150px"
             />
-            <h2 className={style.heading1}>Pepsi Black Can</h2>
+             <h2 className={style.price2}>₹ 60</h2> 
+            <h2 className={style.heading2}>Pepsi Black Can</h2>
             <p className={style.para1}>
             Maximum Taste Zero Calories
             </p>
@@ -2665,7 +2751,8 @@ function Homepage() {
               width="300px"
               height="150px"
             />
-            <h2 className={style.heading1}>Nimbooz ( 350ml )</h2>
+             <h2 className={style.price2}>₹ 60</h2> 
+            <h2 className={style.heading2}>Nimbooz ( 350ml )</h2>
             <p className={style.para1}>
             Nimbooz ( 350ml )
             </p>
@@ -2685,7 +2772,8 @@ function Homepage() {
               width="300px"
               height="150px"
             />
-            <h2 className={style.heading1}>Bailley One (500ml)</h2>
+             <h2 className={style.price2}>₹ 60</h2> 
+            <h2 className={style.heading2}>Bailley One (500ml)</h2>
             <p className={style.para1}>
             Packaged Drinking Water
             </p>
@@ -2712,7 +2800,8 @@ function Homepage() {
               width="300px"
               height="150px"
             />
-            <h2 className={style.heading1}>Family House Party – Veg Value Combo</h2>
+            <h2 className={style.price2}>₹ 1059</h2> 
+            <h2 className={style.heading2}>Family House Party – Veg Value Combo</h2>
             <p className={style.para1}>
             Large Fresh Veggie Pizza + Garlic Bread With Cheesy Dip + 4 Brownie Fantasy + 2 Pepsi
             </p>
@@ -2730,7 +2819,8 @@ function Homepage() {
               width="300px"
               height="150px"
             />
-            <h2 className={style.heading1}>Family House Party – Non Veg Value Combo</h2>
+             <h2 className={style.price2}>₹ 1119</h2> 
+            <h2 className={style.heading2}>Family House Party – Non Veg Value Combo</h2>
             <p className={style.para1}>
             Large Pepper BBQ Chicken Pizza + Garlic Bread + 4 Brownie Fantasy + 2 Pepsi
             </p>
@@ -2747,7 +2837,8 @@ function Homepage() {
               width="300px"
               height="150px"
             />
-            <h2 className={style.heading1}>Family House Party – Veg Deluxe Combo</h2>
+             <h2 className={style.price2}>₹ 1459</h2> 
+            <h2 className={style.heading2}>Family House Party – Veg Deluxe Combo</h2>
             <p className={style.para1}>
             Large Veg Extravaganza Pizza + 2 Garlic Bread + 4 Choco lava cake + 2 Pepsi
             </p>
@@ -2764,7 +2855,8 @@ function Homepage() {
               width="300px"
               height="150px"
             />
-            <h2 className={style.heading1}>Family House Party – Non Veg Deluxe Combo</h2>
+             <h2 className={style.price2}>₹ 1489</h2> 
+            <h2 className={style.heading2}>Family House Party – Non Veg Deluxe Combo</h2>
             <p className={style.para1}>
             Large Chicken Golden Delight Pizza + 2 Garlic Bread + 4 Choco lava cake + 2 Pepsi
             </p>
@@ -2784,7 +2876,8 @@ function Homepage() {
               width="300px"
               height="150px"
             />
-            <h2 className={style.heading1}>Family House Party – Non Veg Premium Combo</h2>
+             <h2 className={style.price2}>₹ 1647</h2> 
+            <h2 className={style.heading2}>Family House Party – Non Veg Premium Combo</h2>
             <p className={style.para1}>
             Large Non Veg Supreme Pizza + 2 Stuffed Garlic Bread + 4 Choco lava cake + 2 Pepsi
             </p>
@@ -2811,7 +2904,8 @@ function Homepage() {
               width="300px"
               height="150px"
             />
-            <h2 className={style.heading1}>Red Velvet Lava Cake</h2>
+             <h2 className={style.price2}>₹ 139</h2>   
+            <h2 className={style.heading2}>Red Velvet Lava Cake</h2>
             <p className={style.para1}>
             A truly indulgent experience with sweet and rich red velvet cake on a creamy cheese flavoured base
             </p>
@@ -2829,7 +2923,8 @@ function Homepage() {
               width="300px"
               height="150px"
             />
-            <h2 className={style.heading1}>Choco Lava Cake</h2>
+             <h2 className={style.price2}>₹ 109</h2>   
+            <h2 className={style.heading2}>Choco Lava Cake</h2>
             <p className={style.para1}>
             Chocolate lovers delight! Indulgent, gooey molten lava inside chocolate cake
             </p>
@@ -2846,7 +2941,8 @@ function Homepage() {
               width="300px"
               height="150px"
             />
-            <h2 className={style.heading1}>Butterscotch Mousse Cake</h2>
+             <h2 className={style.price2}>₹ 109</h2>   
+            <h2 className={style.heading2}>Butterscotch Mousse Cake</h2>
             <p className={style.para1}>
             Sweet temptation! Butterscotch flavored mousse
             </p>
@@ -2864,7 +2960,8 @@ function Homepage() {
               width="300px"
               height="150px"
             />
-            <h2 className={style.heading1}>Brownie Fantasy</h2>
+            <h2 className={style.price2}>₹ 79</h2>      
+            <h2 className={style.heading2}>Brownie Fantasy</h2>
             <p className={style.para1}>
             Sweet Temptation! Hot Chocolate Brownie drizzled with chocolate fudge sauce
             </p>

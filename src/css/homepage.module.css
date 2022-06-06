@@ -52,7 +52,26 @@ html {
     gap: 50px;
     padding: 15px;
 }
-
+.price{
+    position: relative;
+    top: -48px;
+    left: -96px;
+    background: transparent;
+    color: white;
+    font-weight: bolder;
+    text-align: left;
+    width: 70px;
+    padding: 3px;
+    font-size: 20px;
+    border: none;
+}
+.price2{
+    position: relative;
+    top: -60px;
+    left: -110px;
+    color: white;
+    font-size: 20px;
+}
 .item1 {
     width: 300px;
     height: fit-content;
@@ -133,8 +152,14 @@ html {
     text-align: left;
     margin-left: 10px;
     font-size: large;
+    margin-top: -20px;
 }
-
+.heading2 {
+    text-align: left;
+    margin-left: 10px;
+    font-size: large;
+    margin-top: -60px;
+}
 .para1 {
     text-align: left;
     margin-left: 10px;
