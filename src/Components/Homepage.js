@@ -17,6 +17,13 @@ import paneermakhani from "../Images/items/paneermakhani.png";
 import inditandoorpaneer from "../Images/items/inditandoorpaneer.png";
 import freshveggie from "../Images/items/freshveggie.png";
 import mexicangreenwave from "../Images/items/mexicangreenwave.png";
+
+import chickendominator from "../Images/items/chickendominator.png";
+import chickenfiesta from "../Images/items/chickenfiesta.png";
+import chickengoldendelight from "../Images/items/chickengoldendelight.png";
+import indichickentikka from "../Images/items/indichickentikka.png";
+import nonvegsupreme from "../Images/items/nonvegsupreme.png";
+
 import { useState } from "react";
 
 function Homepage() {
@@ -164,6 +171,55 @@ function Homepage() {
     setResult32(e.target.name);
   };
 
+
+  const [result33, setResult33] = useState("");
+  const handleclick33 = (e) => {
+    setResult33(e.target.name);
+  };
+  const [result34, setResult34] = useState("");
+  const handleclick34 = (e) => {
+    setResult34(e.target.name);
+  };
+
+
+  const [result35, setResult35] = useState("");
+  const handleclick35 = (e) => {
+    setResult35(e.target.name);
+  };
+  const [result36, setResult36] = useState("");
+  const handleclick36 = (e) => {
+    setResult36(e.target.name);
+  };
+
+  
+  const [result37, setResult37] = useState("");
+  const handleclick37 = (e) => {
+    setResult37(e.target.name);
+  };
+  const [result38, setResult38] = useState("");
+  const handleclick38 = (e) => {
+    setResult38(e.target.name);
+  };
+
+
+  const [result39, setResult39] = useState("");
+  const handleclick39 = (e) => {
+    setResult39(e.target.name);
+  };
+  const [result40, setResult40] = useState("");
+  const handleclick40 = (e) => {
+    setResult40(e.target.name);
+  };
+  
+
+  const [result41, setResult41] = useState("");
+  const handleclick41 = (e) => {
+    setResult41(e.target.name);
+  };
+  const [result42, setResult42] = useState("");
+  const handleclick42 = (e) => {
+    setResult42(e.target.name);
+  };
   return (
     <>
       <section className={style.bestsellers} id="#one">
@@ -1927,7 +1983,569 @@ function Homepage() {
         </section>
       </section>
 
+
+
+
+
+
+
+
+
+
+
+
       {/* new section starts from here */}
+      <section className={style.bestsellers} id="#three">
+        <div className={style.linemain}></div>
+        <div className={style.mainhead}>NON-VEG PIZZA</div>
+        <section className={style.row1}>
+          <div className={style.item1}>
+            <img
+              src={chickendominator}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Chicken Dominator</h2>
+            <p className={style.para1}>
+            Loaded with double pepper barbecue chicken, peri-peri chicken, chicken tikka and grilled chicken
+            </p>
+            <div className={style.line}></div>
+            <div className={style.sizebase}>
+              <ul className={style.ull}>
+                <h4 className={style.size}> Size </h4>
+                <li>
+                  <input
+                    type="text"
+                    className={style.ntext1}
+                    placeholder=" Choose Size▾"
+                    value={result33}
+                  />
+                  <ul className={style.dropdown}>
+                    <li>
+                      <button
+                        onClick={handleclick33}
+                        name="Regular"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Regular
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick33}
+                        name="Medium"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Medium
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick33}
+                        name="Large"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Large
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul className={style.ull}>
+                <h4 className={style.crust}> Crust </h4>
+                <li>
+                  <input
+                    type="text"
+                    className={style.ntext2}
+                    placeholder="Crust type ▾"
+                    value={result34}
+                  />
+                  <ul className={style.dropdown2}>
+                    <li>
+                      <button
+                        onClick={handleclick34}
+                        name="New Hand"
+                        className={style.dr}
+                      >
+                        {" "}
+                        New Hand
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick34}
+                        name="Classic"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Classic
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick34}
+                        name="Cheese Burst"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Cheese Burst
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+          {/* newone */}
+          <div className={style.item2}>
+            <img
+              src={chickenfiesta}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Chicken Fiesta</h2>
+            <p className={style.para1}>
+            Grilled chicken rashers, peri-peri chicken, onion and capsicum, a complete fiesta
+            </p>
+            <div className={style.line}></div>
+            <div className={style.sizebase}>
+              <ul className={style.ull}>
+                <h4 className={style.size}> Size </h4>
+                <li>
+                  <input
+                    type="text"
+                    className={style.ntext1}
+                    placeholder=" Choose Size▾"
+                    value={result35}
+                  />
+                  <ul className={style.dropdown}>
+                    <li>
+                      <button
+                        onClick={handleclick35}
+                        name="Regular"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Regular
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick35}
+                        name="Medium"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Medium
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick35}
+                        name="Large"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Large
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul className={style.ull}>
+                <h4 className={style.crust}> Crust </h4>
+                <li>
+                  <input
+                    type="text"
+                    className={style.ntext2}
+                    placeholder="Crust type ▾"
+                    value={result36}
+                  />
+                  <ul className={style.dropdown2}>
+                    <li>
+                      <button
+                        onClick={handleclick36}
+                        name="New Hand"
+                        className={style.dr}
+                      >
+                        {" "}
+                        New Hand
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick36}
+                        name="Classic"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Classic
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick36}
+                        name="Cheese Burst"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Cheese Burst
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+          {/* newone */}
+          <div className={style.item3}>
+            <img
+              src={chickengoldendelight}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Chicken Golden Delight</h2>
+            <p className={style.para1}>
+            Double pepper barbecue chicken, golden corn and extra cheese, true delight
+            </p>
+            <div className={style.line}></div>
+            <div className={style.sizebase}>
+              <ul className={style.ull}>
+                <h4 className={style.size}> Size </h4>
+                <li>
+                  <input
+                    type="text"
+                    className={style.ntext1}
+                    placeholder=" Choose Size▾"
+                    value={result37}
+                  />
+                  <ul className={style.dropdown}>
+                    <li>
+                      <button
+                        onClick={handleclick37}
+                        name="Regular"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Regular
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick37}
+                        name="Medium"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Medium
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick37}
+                        name="Large"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Large
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul className={style.ull}>
+                <h4 className={style.crust}> Crust </h4>
+                <li>
+                  <input
+                    type="text"
+                    className={style.ntext2}
+                    placeholder="Crust type ▾"
+                    value={result38}
+                  />
+                  <ul className={style.dropdown2}>
+                    <li>
+                      <button
+                        onClick={handleclick38}
+                        name="New Hand"
+                        className={style.dr}
+                      >
+                        {" "}
+                        New Hand
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick38}
+                        name="Classic"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Classic
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick38}
+                        name="Cheese Burst"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Cheese Burst
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+          {/* newone */}
+          <div className={style.item4}>
+            <img
+              src={indichickentikka}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Indi Chicken Tikka</h2>
+            <p className={style.para1}>
+            The wholesome flavour of tandoori masala with Chicken tikka, onion, red paprika and mint mayo
+            </p>
+            <div className={style.line}></div>
+            <div className={style.sizebase}>
+              <ul className={style.ull}>
+                <h4 className={style.size}> Size </h4>
+                <li>
+                  <input
+                    type="text"
+                    className={style.ntext1}
+                    placeholder=" Choose Size▾"
+                    value={result39}
+                  />
+                  <ul className={style.dropdown}>
+                    <li>
+                      <button
+                        onClick={handleclick39}
+                        name="Regular"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Regular
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick39}
+                        name="Medium"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Medium
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick39}
+                        name="Large"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Large
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul className={style.ull}>
+                <h4 className={style.crust}> Crust </h4>
+                <li>
+                  <input
+                    type="text"
+                    className={style.ntext2}
+                    placeholder="Crust type ▾"
+                    value={result40}
+                  />
+                  <ul className={style.dropdown2}>
+                    <li>
+                      <button
+                        onClick={handleclick40}
+                        name="New Hand"
+                        className={style.dr}
+                      >
+                        {" "}
+                        New Hand
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick40}
+                        name="Classic"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Classic
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick40}
+                        name="Cheese Burst"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Cheese Burst
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+        </section>
+
+        <section className={style.row1}>
+          {/* newone */}
+          <div className={style.item5}>
+            <img
+              src={nonvegsupreme}
+              className={style.border}
+              alt=""
+              width="300px"
+              height="150px"
+            />
+            <h2 className={style.heading1}>Non Veg Supreme</h2>
+            <p className={style.para1}>
+            Supreme combination of black olives, onion, capsicum, grilled mushroom, pepper barbecue chicken, peri-peri chicken
+              sauce
+            </p>
+            <div className={style.line}></div>
+            <div className={style.sizebase}>
+              <ul className={style.ull}>
+                <h4 className={style.size}> Size </h4>
+                <li>
+                  <input
+                    type="text"
+                    className={style.ntext1}
+                    placeholder=" Choose Size▾"
+                    value={result41}
+                  />
+                  <ul className={style.dropdown}>
+                    <li>
+                      <button
+                        onClick={handleclick41}
+                        name="Regular"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Regular
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick41}
+                        name="Medium"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Medium
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick41}
+                        name="Large"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Large
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul className={style.ull}>
+                <h4 className={style.crust}> Crust </h4>
+                <li>
+                  <input
+                    type="text"
+                    className={style.ntext2}
+                    placeholder="Crust type ▾"
+                    value={result42}
+                  />
+                  <ul className={style.dropdown2}>
+                    <li>
+                      <button
+                        onClick={handleclick42}
+                        name="New Hand"
+                        className={style.dr}
+                      >
+                        {" "}
+                        New Hand
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick42}
+                        name="Classic"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Classic
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={handleclick42}
+                        name="Cheese Burst"
+                        className={style.dr}
+                      >
+                        {" "}
+                        Cheese Burst
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <button className={style.addtocart} type="submit">
+              ADD TO CART
+            </button>
+          </div>
+
+          
+        </section>
+      </section>
     </>
   );
 }
