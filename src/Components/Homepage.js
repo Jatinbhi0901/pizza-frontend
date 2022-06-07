@@ -600,91 +600,91 @@ const handleclick8 = (e) => {
 
 
   if(type15==="Regular" && type16==="New Hand"){
-    p1=("₹ "+209)
+    p8=("₹ "+209)
 
   }
   else if(type15==="Regular" && type16==="Classic"){
-    p1=("₹ "+209)
+    p8=("₹ "+209)
 
   }
   else if(type15==="Regular" && type16==="Cheese Burst"){
-    p1=("₹ "+284)
+    p8=("₹ "+284)
 
   }
 
 
   if(type17==="Regular" && type18==="New Hand"){
-    p1=("₹ "+209)
+    p9=("₹ "+209)
 
   }
   else if(type17==="Regular" && type18==="Classic"){
-    p1=("₹ "+209)
+    p9=("₹ "+209)
 
   }
   else if(type17==="Regular" && type18==="Cheese Burst"){
-    p1=("₹ "+284)
+    p9=("₹ "+284)
 
   }
 
   
   if(type19==="Regular" && type20==="New Hand"){
-    p1=("₹ "+209)
+    p10=("₹ "+209)
 
   }
   else if(type19==="Regular" && type20==="Classic"){
-    p1=("₹ "+209)
+    p10=("₹ "+209)
 
   }
   else if(type19==="Regular" && type20==="Cheese Burst"){
-    p1=("₹ "+284)
+    p10=("₹ "+284)
 
   }
 
   
   if(type21==="Regular" && type22==="New Hand"){
-    p1=("₹ "+209)
+    p11=("₹ "+209)
 
   }
   else if(type21==="Regular" && type22==="Classic"){
-    p1=("₹ "+209)
+    p11=("₹ "+209)
 
   }
   else if(type21==="Regular" && type22==="Cheese Burst"){
-    p1=("₹ "+284)
+    p11=("₹ "+284)
 
   }
   
 
 
   if(type23==="Regular" && type24==="New Hand"){
-    p1=("₹ "+209)
+    p12=("₹ "+209)
 
   }
   else if(type23==="Regular" && type24==="Classic"){
-    p1=("₹ "+209)
+    p12=("₹ "+209)
 
   }
   else if(type23==="Regular" && type24==="Cheese Burst"){
-    p1=("₹ "+284)
+    p12=("₹ "+284)
 
   }
   
 
 
   if(type25==="Regular" && type26==="New Hand"){
-    p1=("₹ "+109)
+    p13=("₹ "+109)
 
   }
   else if(type25==="Regular" && type26==="Classic"){
-    p1=("₹ "+109)
+    p13=("₹ "+109)
 
   }
   else if(type25==="Regular" && type26==="Cheese Burst"){
-    p1=("₹ "+184)
+    p13=("₹ "+184)
 
   }
   else if(type25==="Medium" && type26==="New Hand"){
-    p1=("₹ "+239)
+    p13=("₹ "+239)
 
   }
   else if(type25==="Medium" && type26==="Classic"){
@@ -692,19 +692,19 @@ const handleclick8 = (e) => {
 
   }
   else if(type25==="Medium" && type26==="Cheese Burst"){
-    p1=("₹ "+338)
+    p13=("₹ "+338)
 
   }
   else if(type25==="Large" && type26==="New Hand"){
-    p1=("₹ "+449)
+    p13=("₹ "+449)
 
   }
   else if(type25==="Large" && type26==="Classic"){
-    p1=("₹ "+449)
+    p13=("₹ "+449)
 
   }
   else if(type25==="Large" && type26==="Cheese Burst"){
-    p1=("₹ "+499)
+    p13=("₹ "+499)
 
   }
 
@@ -713,39 +713,39 @@ const handleclick8 = (e) => {
 
 
   if(type27==="Regular" && type28==="New Hand"){
-    p1=("₹ "+109)
+    p14=("₹ "+109)
 
   }
   else if(type27==="Regular" && type28==="Classic"){
-    p1=("₹ "+109)
+    p14=("₹ "+109)
 
   }
   else if(type27==="Regular" && type28==="Cheese Burst"){
-    p1=("₹ "+184)
+    p14=("₹ "+184)
 
   }
   else if(type27==="Medium" && type28==="New Hand"){
-    p1=("₹ "+239)
+    p14=("₹ "+239)
 
   }
   else if(type27==="Medium" && type28==="Classic"){
-    p1=("₹ "+239)
+    p14=("₹ "+239)
 
   }
   else if(type27==="Medium" && type28==="Cheese Burst"){
-    p1=("₹ "+338)
+    p14=("₹ "+338)
 
   }
   else if(type27==="Large" && type28==="New Hand"){
-    p1=("₹ "+449)
+    p14=("₹ "+449)
 
   }
   else if(type27==="Large" && type28==="Classic"){
-    p1=("₹ "+449)
+    p14=("₹ "+449)
 
   }
   else if(type27==="Large" && type28==="Cheese Burst"){
-    p1=("₹ "+499)
+    p14=("₹ "+499)
 
   }
 
@@ -753,39 +753,39 @@ const handleclick8 = (e) => {
 
   
   if(type29==="Regular" && type30==="New Hand"){
-    p1=("₹ "+109)
+    p15=("₹ "+109)
 
   }
   else if(type29==="Regular" && type30==="Classic"){
-    p1=("₹ "+109)
+    p15=("₹ "+109)
 
   }
   else if(type29==="Regular" && type30==="Cheese Burst"){
-    p1=("₹ "+184)
+    p15=("₹ "+184)
 
   }
   else if(type29==="Medium" && type39==="New Hand"){
-    p1=("₹ "+239)
+    p15=("₹ "+239)
 
   }
   else if(type29==="Medium" && type30==="Classic"){
-    p1=("₹ "+239)
+    p15=("₹ "+239)
 
   }
   else if(type29==="Medium" && type30==="Cheese Burst"){
-    p1=("₹ "+338)
+    p15=("₹ "+338)
 
   }
   else if(type29==="Large" && type30==="New Hand"){
-    p1=("₹ "+449)
+    p15=("₹ "+449)
 
   }
   else if(type29==="Large" && type30==="Classic"){
-    p1=("₹ "+449)
+    p15=("₹ "+449)
 
   }
   else if(type29==="Large" && type30==="Cheese Burst"){
-    p1=("₹ "+499)
+    p15=("₹ "+499)
 
   }
 
@@ -793,39 +793,39 @@ const handleclick8 = (e) => {
 
   
   if(type31==="Regular" && type32==="New Hand"){
-    p1=("₹ "+109)
+    p16=("₹ "+109)
 
   }
   else if(type31==="Regular" && type32==="Classic"){
-    p1=("₹ "+109)
+    p16=("₹ "+109)
 
   }
   else if(type31==="Regular" && type32==="Cheese Burst"){
-    p1=("₹ "+184)
+    p16=("₹ "+184)
 
   }
   else if(type31==="Medium" && type32==="New Hand"){
-    p1=("₹ "+239)
+    p16=("₹ "+239)
 
   }
   else if(type31==="Medium" && type32==="Classic"){
-    p1=("₹ "+239)
+    p16=("₹ "+239)
 
   }
   else if(type31==="Medium" && type32==="Cheese Burst"){
-    p1=("₹ "+338)
+    p16=("₹ "+338)
 
   }
   else if(type31==="Large" && type32==="New Hand"){
-    p1=("₹ "+449)
+    p16=("₹ "+449)
 
   }
   else if(type31==="Large" && type32==="Classic"){
-    p1=("₹ "+449)
+    p16=("₹ "+449)
 
   }
   else if(type31==="Large" && type32==="Cheese Burst"){
-    p1=("₹ "+499)
+    p16=("₹ "+499)
 
   }
 
@@ -834,39 +834,39 @@ const handleclick8 = (e) => {
 
 
   if(type33==="Regular" && type34==="New Hand"){
-    p1=("₹ "+109)
+    p17=("₹ "+109)
 
   }
   else if(type33==="Regular" && type34==="Classic"){
-    p1=("₹ "+109)
+    p17=("₹ "+109)
 
   }
   else if(type33==="Regular" && type34==="Cheese Burst"){
-    p1=("₹ "+184)
+    p17=("₹ "+184)
 
   }
   else if(type33==="Medium" && type34==="New Hand"){
-    p1=("₹ "+239)
+    p17=("₹ "+239)
 
   }
   else if(type33==="Medium" && type34==="Classic"){
-    p1=("₹ "+239)
+    p17=("₹ "+239)
 
   }
   else if(type33==="Medium" && type34==="Cheese Burst"){
-    p1=("₹ "+338)
+    p17=("₹ "+338)
 
   }
   else if(type33==="Large" && type34==="New Hand"){
-    p1=("₹ "+449)
+    p17=("₹ "+449)
 
   }
   else if(type33==="Large" && type4==="Classic"){
-    p1=("₹ "+449)
+    p17=("₹ "+449)
 
   }
   else if(type33==="Large" && type34==="Cheese Burst"){
-    p1=("₹ "+499)
+    p17=("₹ "+499)
 
   }
 
