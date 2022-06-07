@@ -43,200 +43,990 @@ import redvelvet from "../Images/items/redvelevt.jpg";
 
 import { useState } from "react";
 
+var type1,type2; let p1;
+var type3,type4; let p2;
+var type5,type6; let p3;
+var type7,type8; let p4;
+var type9,type10; let p5;
+var type11,type12; let p6;
+var type13,type14; let p7;
+var type15,type16; let p8;
+var type17,type18; let p9;
+var type19,type20; let p10;
+var type21,type22; let p11;
+var type23,type24; let p12;
+var type25,type26; let p13;
+var type27,type28; let p14;
+var type29,type30; let p15;
+var type31,type32; let p16;
+var type33,type34; let p17;
+var type35,type36; let p18;
+var type37,type38; let p19;
+var type39,type40; let p20;
+var type41,type42; let p21;
+
 function Homepage() {
+
+
+// margerita
   const [result1, setResult1] = useState("");
   const handleclick1 = (e) => {
     setResult1(e.target.name);
+    type1=(e.target.name);
   };
   const [result2, setResult2] = useState("");
   const handleclick2 = (e) => {
-    setResult2(e.target.name);
+    setResult2(e.target.name); 
+    type2=(e.target.name);
+    
   };
 
+// cheese n corn
   const [result3, setResult3] = useState("");
   const handleclick3 = (e) => {
     setResult3(e.target.name);
+    type3=(e.target.name);
   };
   const [result4, setResult4] = useState("");
   const handleclick4 = (e) => {
     setResult4(e.target.name);
+    type4=(e.target.name);
   };
 
-  const [result5, setResult5] = useState("");
-  const handleclick5 = (e) => {
-    setResult5(e.target.name);
-  };
-  const [result6, setResult6] = useState("");
-  const handleclick6 = (e) => {
-    setResult6(e.target.name);
-  };
 
-  const [result7, setResult7] = useState("");
-  const handleclick7 = (e) => {
-    setResult7(e.target.name);
-  };
-  const [result8, setResult8] = useState("");
-  const handleclick8 = (e) => {
-    setResult8(e.target.name);
-  };
+// farmhouse
+const [result5, setResult5] = useState("");
+const handleclick5 = (e) => {
+  setResult5(e.target.name);
+  type5=(e.target.name)
+};
+const [result6, setResult6] = useState("");
+const handleclick6 = (e) => {
+  setResult6(e.target.name);
+  type6=(e.target.name)
+};
 
+// peppy paneer
+const [result7, setResult7] = useState("");
+const handleclick7 = (e) => {
+  setResult7(e.target.name);
+  type7=(e.target.name)
+};
+const [result8, setResult8] = useState("");
+const handleclick8 = (e) => {
+  setResult8(e.target.name);
+  type8=(e.target.name)
+};
+
+  // veggie paradise
   const [result9, setResult9] = useState("");
   const handleclick9 = (e) => {
     setResult9(e.target.name);
+    type9=(e.target.name)
   };
   const [result10, setResult10] = useState("");
   const handleclick10 = (e) => {
     setResult10(e.target.name);
+    type10=(e.target.name)
   };
 
-  const [result11, setResult11] = useState("");
-  const handleclick11 = (e) => {
-    setResult11(e.target.name);
-  };
-  const [result12, setResult12] = useState("");
-  const handleclick12 = (e) => {
-    setResult12(e.target.name);
-  };
+   //chicken sausage
+   const [result11, setResult11] = useState("");
+   const handleclick11 = (e) => {
+     setResult11(e.target.name);
+     type11=(e.target.name)
+   };
+   const [result12, setResult12] = useState("");
+   const handleclick12 = (e) => {
+     setResult12(e.target.name);
+     type12=(e.target.name)
+   };
 
+
+   // paper barbique chiken
   const [result13, setResult13] = useState("");
   const handleclick13 = (e) => {
     setResult13(e.target.name);
+    type13=(e.target.name)
   };
   const [result14, setResult14] = useState("");
   const handleclick14 = (e) => {
     setResult14(e.target.name);
+    type14=(e.target.name)
   };
 
-  const [result15, setResult15] = useState("");
-  const handleclick15 = (e) => {
-    setResult15(e.target.name);
-  };
-  const [result16, setResult16] = useState("");
-  const handleclick16 = (e) => {
-    setResult16(e.target.name);
-  };
 
-  const [result17, setResult17] = useState("");
-  const handleclick17 = (e) => {
-    setResult17(e.target.name);
-  };
-  const [result18, setResult18] = useState("");
-  const handleclick18 = (e) => {
-    setResult18(e.target.name);
-  };
+    // capsicum
+    const [result15, setResult15] = useState("");
+    const handleclick15 = (e) => {
+      setResult15(e.target.name);
+      type15=(e.target.name)
+    };
+    const [result16, setResult16] = useState("");
+    const handleclick16 = (e) => {
+      setResult16(e.target.name);
+      type16=(e.target.name)
+    };
+    
+  
+  
+    // golden corn
+    const [result17, setResult17] = useState("");
+    const handleclick17 = (e) => {
+      setResult17(e.target.name);
+      type17=(e.target.name)
+    };
+    const [result18, setResult18] = useState("");
+    const handleclick18 = (e) => {
+      setResult18(e.target.name);
+      type18=(e.target.name)
+    };
+  
+  
+    // onion
+    const [result19, setResult19] = useState("");
+    const handleclick19 = (e) => {
+      setResult19(e.target.name);
+      type19=(e.target.name)
+    };
+    const [result20, setResult20] = useState("");
+    const handleclick20 = (e) => {
+      setResult20(e.target.name);
+      type20=(e.target.name)
+    };
+  
+    // paneer and onion
+    const [result21, setResult21] = useState("");
+    const handleclick21 = (e) => {
+      setResult21(e.target.name);
+      type21=(e.target.name)
+    };
+    const [result22, setResult22] = useState("");
+    const handleclick22 = (e) => {
+      setResult22(e.target.name);
+      type22=(e.target.name)
+    };
+  
+  
+    // tomato
+    const [result23, setResult23] = useState("");
+    const handleclick23 = (e) => {
+      setResult23(e.target.name);
+      type23=(e.target.name)
+    };
+    const [result24, setResult24] = useState("");
+    const handleclick24 = (e) => {
+      setResult24(e.target.name);
+      type24=(e.target.name)
+    };
 
-  const [result19, setResult19] = useState("");
-  const handleclick19 = (e) => {
-    setResult19(e.target.name);
-  };
-  const [result20, setResult20] = useState("");
-  const handleclick20 = (e) => {
-    setResult20(e.target.name);
-  };
 
-  const [result21, setResult21] = useState("");
-  const handleclick21 = (e) => {
-    setResult21(e.target.name);
-  };
-  const [result22, setResult22] = useState("");
-  const handleclick22 = (e) => {
-    setResult22(e.target.name);
-  };
-
-  const [result23, setResult23] = useState("");
-  const handleclick23 = (e) => {
-    setResult23(e.target.name);
-  };
-  const [result24, setResult24] = useState("");
-  const handleclick24 = (e) => {
-    setResult24(e.target.name);
-  };
-
-  const [result25, setResult25] = useState("");
-  const handleclick25 = (e) => {
-    setResult25(e.target.name);
-  };
-  const [result26, setResult26] = useState("");
-  const handleclick26 = (e) => {
-    setResult26(e.target.name);
-  };
-
+    // paneer makhani
+    const [result25, setResult25] = useState("");
+    const handleclick25 = (e) => {
+      setResult25(e.target.name);
+      type25=(e.target.name)
+    };
+    const [result26, setResult26] = useState("");
+    const handleclick26 = (e) => {
+      setResult26(e.target.name);
+      type26=(e.target.name)
+    };
+  // indi tandoori paneer
   const [result27, setResult27] = useState("");
   const handleclick27 = (e) => {
     setResult27(e.target.name);
+    type27=(e.target.name)
   };
   const [result28, setResult28] = useState("");
   const handleclick28 = (e) => {
     setResult28(e.target.name);
+    type28=(e.target.name)
   };
-
+  // fresh veggie
   const [result29, setResult29] = useState("");
   const handleclick29 = (e) => {
     setResult29(e.target.name);
+    type29=(e.target.name)
   };
   const [result30, setResult30] = useState("");
   const handleclick30 = (e) => {
     setResult30(e.target.name);
+    type30=(e.target.name)
   };
 
+  // maxican green wave
   const [result31, setResult31] = useState("");
   const handleclick31 = (e) => {
     setResult31(e.target.name);
+    type31=(e.target.name)
   };
   const [result32, setResult32] = useState("");
   const handleclick32 = (e) => {
     setResult32(e.target.name);
+    type32=(e.target.name)
   };
 
-
+  // chicken dominator
   const [result33, setResult33] = useState("");
   const handleclick33 = (e) => {
     setResult33(e.target.name);
+    type33=(e.target.name)
   };
   const [result34, setResult34] = useState("");
   const handleclick34 = (e) => {
     setResult34(e.target.name);
+    type34=(e.target.name)
   };
-
-
+  // chicken fiesta
   const [result35, setResult35] = useState("");
   const handleclick35 = (e) => {
     setResult35(e.target.name);
+    type35=(e.target.name)
   };
   const [result36, setResult36] = useState("");
   const handleclick36 = (e) => {
     setResult36(e.target.name);
+    type36=(e.target.name)
   };
 
-  
-  const [result37, setResult37] = useState("");
-  const handleclick37 = (e) => {
-    setResult37(e.target.name);
-  };
-  const [result38, setResult38] = useState("");
-  const handleclick38 = (e) => {
-    setResult38(e.target.name);
-  };
+   // chicken golden delight
+   const [result37, setResult37] = useState("");
+   const handleclick37 = (e) => {
+     setResult37(e.target.name);
+     type37=(e.target.name)
+   };
+   const [result38, setResult38] = useState("");
+   const handleclick38 = (e) => {
+     setResult38(e.target.name);
+     type38=(e.target.name)
+   };
 
-
+   // indi chicken tikka
   const [result39, setResult39] = useState("");
   const handleclick39 = (e) => {
     setResult39(e.target.name);
+    type39=(e.target.name)
   };
   const [result40, setResult40] = useState("");
   const handleclick40 = (e) => {
     setResult40(e.target.name);
+    type40=(e.target.name)
   };
-  
 
+  // nonveg supreme
   const [result41, setResult41] = useState("");
   const handleclick41 = (e) => {
     setResult41(e.target.name);
+    type41=(e.target.name)
   };
   const [result42, setResult42] = useState("");
   const handleclick42 = (e) => {
     setResult42(e.target.name);
+    type42=(e.target.name)
   };
+
+
+  if(type1==="Regular" && type2==="New Hand"){
+    p1=("₹ "+109)
+
+  }
+  else if(type1==="Regular" && type2==="Classic"){
+    p1=("₹ "+109)
+
+  }
+  else if(type1==="Regular" && type2==="Cheese Burst"){
+    p1=("₹ "+184)
+
+  }
+  else if(type1==="Medium" && type2==="New Hand"){
+    p1=("₹ "+239)
+
+  }
+  else if(type1==="Medium" && type2==="Classic"){
+    p1=("₹ "+239)
+
+  }
+  else if(type1==="Medium" && type2==="Cheese Burst"){
+    p1=("₹ "+338)
+
+  }
+  else if(type1==="Large" && type2==="New Hand"){
+    p1=("₹ "+449)
+
+  }
+  else if(type1==="Large" && type2==="Classic"){
+    p1=("₹ "+449)
+
+  }
+  else if(type1==="Large" && type2==="Cheese Burst"){
+    p1=("₹ "+499)
+
+  }
+
+
+
+
+
+  
+  if(type3==="Regular" && type4==="New Hand"){
+    p2=("₹ "+209)
+  }
+  else if(type3==="Regular" && type4==="Classic"){
+    p2=("₹ "+209)
+
+  }
+  else if(type3==="Regular" && type4==="Cheese Burst"){
+    p2=("₹ "+284)
+
+  }
+  else if(type3==="Medium" && type4==="New Hand"){
+    p2=("₹ "+379)
+
+  }
+  else if(type3==="Medium" && type4==="Classic"){
+    p2=("₹ "+399)
+
+  }
+  else if(type3==="Medium" && type4==="Cheese Burst"){
+    p2=("₹ "+478)
+
+  }
+  else if(type3==="Large" && type4==="New Hand"){
+    p2=("₹ "+609)
+
+  }
+  else if(type3==="Large" && type4==="Classic"){
+    p2=("₹ "+629)
+
+  }
+  else if(type3==="Large" && type4==="Cheese Burst"){
+    p2=("₹ "+699)
+
+  }
+
+
+
+  if(type5==="Regular" && type6==="New Hand"){
+    p3=("₹ "+209)
+
+  }
+  else if(type5==="Regular" && type6==="Classic"){
+    p3=("₹ "+209)
+
+  }
+  else if(type5==="Regular" && type6==="Cheese Burst"){
+    p3=("₹ "+284)
+
+  }
+  else if(type5==="Medium" && type6==="New Hand"){
+    p3=("₹ "+379)
+
+  }
+  else if(type5==="Medium" && type6==="Classic"){
+    p3=("₹ "+399)
+
+  }
+  else if(type5==="Medium" && type6==="Cheese Burst"){
+    p3=("₹ "+478)
+
+  }
+  else if(type5==="Large" && type6==="New Hand"){
+    p3=("₹ "+609)
+
+  }
+  else if(type5==="Large" && type6==="Classic"){
+    p3=("₹ "+629)
+
+  }
+  else if(type5==="Large" && type6==="Cheese Burst"){
+    p3=("₹ "+699)
+
+  }
+
+
+  if(type7==="Regular" && type8==="New Hand"){
+    p4=("₹ "+209)
+
+  }
+  else if(type7==="Regular" && type8==="Classic"){
+    p4=("₹ "+209)
+
+  }
+  else if(type7==="Regular" && type8==="Cheese Burst"){
+    p4=("₹ "+284)
+
+  }
+  else if(type7==="Medium" && type8==="New Hand"){
+    p4=("₹ "+379)
+
+  }
+  else if(type7==="Medium" && type8==="Classic"){
+    p4=("₹ "+399)
+
+  }
+  else if(type7==="Medium" && type8==="Cheese Burst"){
+    p4=("₹ "+478)
+
+  }
+  else if(type7==="Large" && type8==="New Hand"){
+    p4=("₹ "+609)
+
+  }
+  else if(type7==="Large" && type8==="Classic"){
+    p4=("₹ "+629)
+
+  }
+  else if(type7==="Large" && type8==="Cheese Burst"){
+    p4=("₹ "+699)
+
+  }
+
+
+  if(type9==="Regular" && type10==="New Hand"){
+    p5=("₹ "+209)
+
+  }
+  else if(type9==="Regular" && type10==="Classic"){
+    p5=("₹ "+209)
+
+  }
+  else if(type9==="Regular" && type10==="Cheese Burst"){
+    p5=("₹ "+284)
+
+  }
+  else if(type9==="Medium" && type10==="New Hand"){
+    p5=("₹ "+379)
+
+  }
+  else if(type9==="Medium" && type10==="Classic"){
+    p5=("₹ "+399)
+
+  }
+  else if(type9==="Medium" && type10==="Cheese Burst"){
+    p5=("₹ "+478)
+
+  }
+  else if(type9==="Large" && type10==="New Hand"){
+    p5=("₹ "+609)
+
+  }
+  else if(type9==="Large" && type10==="Classic"){
+    p5=("₹ "+629)
+
+  }
+  else if(type9==="Large" && type10==="Cheese Burst"){
+    p5=("₹ "+699)
+
+  }
+
+ 
+  if(type11==="Regular" && type12==="New Hand"){
+    p6=("₹ "+209)
+
+  }
+  else if(type11==="Regular" && type12==="Classic"){
+    p6=("₹ "+209)
+
+  }
+  else if(type11==="Regular" && type12==="Cheese Burst"){
+    p6=("₹ "+284)
+
+  }
+  else if(type11==="Medium" && type12==="New Hand"){
+    p6=("₹ "+379)
+
+  }
+  else if(type11==="Medium" && type12==="Classic"){
+    p6=("₹ "+399)
+
+  }
+  else if(type11==="Medium" && type12==="Cheese Burst"){
+    p6=("₹ "+478)
+
+  }
+  else if(type11==="Large" && type12==="New Hand"){
+    p6=("₹ "+609)
+
+  }
+  else if(type11==="Large" && type12==="Classic"){
+    p6=("₹ "+629)
+
+  }
+  else if(type11==="Large" && type12==="Cheese Burst"){
+    p6=("₹ "+699)
+
+  }
+
+  
+  if(type13==="Regular" && type14==="New Hand"){
+    p7=("₹ "+209)
+
+  }
+  else if(type13==="Regular" && type14==="Classic"){
+    p7=("₹ "+209)
+
+  }
+  else if(type13==="Regular" && type14==="Cheese Burst"){
+    p7=("₹ "+284)
+
+  }
+  else if(type13==="Medium" && type14==="New Hand"){
+    p7=("₹ "+379)
+
+  }
+  else if(type13==="Medium" && type14==="Classic"){
+    p7=("₹ "+399)
+
+  }
+  else if(type13==="Medium" && type14==="Cheese Burst"){
+    p1=("₹ "+478)
+
+  }
+  else if(type13==="Large" && type14==="New Hand"){
+    p7=("₹ "+609)
+
+  }
+  else if(type13==="Large" && type14==="Classic"){
+    p7=("₹ "+629)
+
+  }
+  else if(type13==="Large" && type14==="Cheese Burst"){
+    p7=("₹ "+699)
+
+  }
+
+
+
+
+  if(type15==="Regular" && type16==="New Hand"){
+    p1=("₹ "+209)
+
+  }
+  else if(type15==="Regular" && type16==="Classic"){
+    p1=("₹ "+209)
+
+  }
+  else if(type15==="Regular" && type16==="Cheese Burst"){
+    p1=("₹ "+284)
+
+  }
+
+
+  if(type17==="Regular" && type18==="New Hand"){
+    p1=("₹ "+209)
+
+  }
+  else if(type17==="Regular" && type18==="Classic"){
+    p1=("₹ "+209)
+
+  }
+  else if(type17==="Regular" && type18==="Cheese Burst"){
+    p1=("₹ "+284)
+
+  }
+
+  
+  if(type19==="Regular" && type20==="New Hand"){
+    p1=("₹ "+209)
+
+  }
+  else if(type19==="Regular" && type20==="Classic"){
+    p1=("₹ "+209)
+
+  }
+  else if(type19==="Regular" && type20==="Cheese Burst"){
+    p1=("₹ "+284)
+
+  }
+
+  
+  if(type21==="Regular" && type22==="New Hand"){
+    p1=("₹ "+209)
+
+  }
+  else if(type21==="Regular" && type22==="Classic"){
+    p1=("₹ "+209)
+
+  }
+  else if(type21==="Regular" && type22==="Cheese Burst"){
+    p1=("₹ "+284)
+
+  }
+  
+
+
+  if(type23==="Regular" && type24==="New Hand"){
+    p1=("₹ "+209)
+
+  }
+  else if(type23==="Regular" && type24==="Classic"){
+    p1=("₹ "+209)
+
+  }
+  else if(type23==="Regular" && type24==="Cheese Burst"){
+    p1=("₹ "+284)
+
+  }
+  
+
+
+  if(type25==="Regular" && type26==="New Hand"){
+    p1=("₹ "+109)
+
+  }
+  else if(type25==="Regular" && type26==="Classic"){
+    p1=("₹ "+109)
+
+  }
+  else if(type25==="Regular" && type26==="Cheese Burst"){
+    p1=("₹ "+184)
+
+  }
+  else if(type25==="Medium" && type26==="New Hand"){
+    p1=("₹ "+239)
+
+  }
+  else if(type25==="Medium" && type26==="Classic"){
+    p1=("₹ "+239)
+
+  }
+  else if(type25==="Medium" && type26==="Cheese Burst"){
+    p1=("₹ "+338)
+
+  }
+  else if(type25==="Large" && type26==="New Hand"){
+    p1=("₹ "+449)
+
+  }
+  else if(type25==="Large" && type26==="Classic"){
+    p1=("₹ "+449)
+
+  }
+  else if(type25==="Large" && type26==="Cheese Burst"){
+    p1=("₹ "+499)
+
+  }
+
+
+  
+
+
+  if(type27==="Regular" && type28==="New Hand"){
+    p1=("₹ "+109)
+
+  }
+  else if(type27==="Regular" && type28==="Classic"){
+    p1=("₹ "+109)
+
+  }
+  else if(type27==="Regular" && type28==="Cheese Burst"){
+    p1=("₹ "+184)
+
+  }
+  else if(type27==="Medium" && type28==="New Hand"){
+    p1=("₹ "+239)
+
+  }
+  else if(type27==="Medium" && type28==="Classic"){
+    p1=("₹ "+239)
+
+  }
+  else if(type27==="Medium" && type28==="Cheese Burst"){
+    p1=("₹ "+338)
+
+  }
+  else if(type27==="Large" && type28==="New Hand"){
+    p1=("₹ "+449)
+
+  }
+  else if(type27==="Large" && type28==="Classic"){
+    p1=("₹ "+449)
+
+  }
+  else if(type27==="Large" && type28==="Cheese Burst"){
+    p1=("₹ "+499)
+
+  }
+
+
+
+  
+  if(type29==="Regular" && type30==="New Hand"){
+    p1=("₹ "+109)
+
+  }
+  else if(type29==="Regular" && type30==="Classic"){
+    p1=("₹ "+109)
+
+  }
+  else if(type29==="Regular" && type30==="Cheese Burst"){
+    p1=("₹ "+184)
+
+  }
+  else if(type29==="Medium" && type39==="New Hand"){
+    p1=("₹ "+239)
+
+  }
+  else if(type29==="Medium" && type30==="Classic"){
+    p1=("₹ "+239)
+
+  }
+  else if(type29==="Medium" && type30==="Cheese Burst"){
+    p1=("₹ "+338)
+
+  }
+  else if(type29==="Large" && type30==="New Hand"){
+    p1=("₹ "+449)
+
+  }
+  else if(type29==="Large" && type30==="Classic"){
+    p1=("₹ "+449)
+
+  }
+  else if(type29==="Large" && type30==="Cheese Burst"){
+    p1=("₹ "+499)
+
+  }
+
+
+
+  
+  if(type31==="Regular" && type32==="New Hand"){
+    p1=("₹ "+109)
+
+  }
+  else if(type31==="Regular" && type32==="Classic"){
+    p1=("₹ "+109)
+
+  }
+  else if(type31==="Regular" && type32==="Cheese Burst"){
+    p1=("₹ "+184)
+
+  }
+  else if(type31==="Medium" && type32==="New Hand"){
+    p1=("₹ "+239)
+
+  }
+  else if(type31==="Medium" && type32==="Classic"){
+    p1=("₹ "+239)
+
+  }
+  else if(type31==="Medium" && type32==="Cheese Burst"){
+    p1=("₹ "+338)
+
+  }
+  else if(type31==="Large" && type32==="New Hand"){
+    p1=("₹ "+449)
+
+  }
+  else if(type31==="Large" && type32==="Classic"){
+    p1=("₹ "+449)
+
+  }
+  else if(type31==="Large" && type32==="Cheese Burst"){
+    p1=("₹ "+499)
+
+  }
+
+
+
+
+
+  if(type33==="Regular" && type34==="New Hand"){
+    p1=("₹ "+109)
+
+  }
+  else if(type33==="Regular" && type34==="Classic"){
+    p1=("₹ "+109)
+
+  }
+  else if(type33==="Regular" && type34==="Cheese Burst"){
+    p1=("₹ "+184)
+
+  }
+  else if(type33==="Medium" && type34==="New Hand"){
+    p1=("₹ "+239)
+
+  }
+  else if(type33==="Medium" && type34==="Classic"){
+    p1=("₹ "+239)
+
+  }
+  else if(type33==="Medium" && type34==="Cheese Burst"){
+    p1=("₹ "+338)
+
+  }
+  else if(type33==="Large" && type34==="New Hand"){
+    p1=("₹ "+449)
+
+  }
+  else if(type33==="Large" && type4==="Classic"){
+    p1=("₹ "+449)
+
+  }
+  else if(type33==="Large" && type34==="Cheese Burst"){
+    p1=("₹ "+499)
+
+  }
+
+
+
+
+
+  if(type35==="Regular" && type36==="New Hand"){
+    p1=("₹ "+109)
+
+  }
+  else if(type35==="Regular" && type36==="Classic"){
+    p1=("₹ "+109)
+
+  }
+  else if(type35==="Regular" && type36==="Cheese Burst"){
+    p1=("₹ "+184)
+
+  }
+  else if(type35==="Medium" && type36==="New Hand"){
+    p1=("₹ "+239)
+
+  }
+  else if(type35==="Medium" && type36==="Classic"){
+    p1=("₹ "+239)
+
+  }
+  else if(type35==="Medium" && type36==="Cheese Burst"){
+    p1=("₹ "+338)
+
+  }
+  else if(type35==="Large" && type36==="New Hand"){
+    p1=("₹ "+449)
+
+  }
+  else if(type35==="Large" && type36==="Classic"){
+    p1=("₹ "+449)
+
+  }
+  else if(type35==="Large" && type36==="Cheese Burst"){
+    p1=("₹ "+499)
+
+  }
+
+
+ 
+  if(type37==="Regular" && type38==="New Hand"){
+    p1=("₹ "+109)
+
+  }
+  else if(type37==="Regular" && type38==="Classic"){
+    p1=("₹ "+109)
+
+  }
+  else if(type37==="Regular" && type38==="Cheese Burst"){
+    p1=("₹ "+184)
+
+  }
+  else if(type37==="Medium" && type38==="New Hand"){
+    p1=("₹ "+239)
+
+  }
+  else if(type37==="Medium" && type38==="Classic"){
+    p1=("₹ "+239)
+
+  }
+  else if(type37==="Medium" && type38==="Cheese Burst"){
+    p1=("₹ "+338)
+
+  }
+  else if(type37==="Large" && type38==="New Hand"){
+    p1=("₹ "+449)
+
+  }
+  else if(type37==="Large" && type38==="Classic"){
+    p1=("₹ "+449)
+
+  }
+  else if(type37==="Large" && type38==="Cheese Burst"){
+    p1=("₹ "+499)
+
+  }
+  
+
+
+  if(type39==="Regular" && type40==="New Hand"){
+    p1=("₹ "+109)
+
+  }
+  else if(type39==="Regular" && type40==="Classic"){
+    p1=("₹ "+109)
+
+  }
+  else if(type39==="Regular" && type40==="Cheese Burst"){
+    p1=("₹ "+184)
+
+  }
+  else if(type39==="Medium" && type40==="New Hand"){
+    p1=("₹ "+239)
+
+  }
+  else if(type39==="Medium" && type40==="Classic"){
+    p1=("₹ "+239)
+
+  }
+  else if(type39==="Medium" && type40==="Cheese Burst"){
+    p1=("₹ "+338)
+
+  }
+  else if(type39==="Large" && type40==="New Hand"){
+    p1=("₹ "+449)
+
+  }
+  else if(type39==="Large" && type40==="Classic"){
+    p1=("₹ "+449)
+
+  }
+  else if(type39==="Large" && type40==="Cheese Burst"){
+    p1=("₹ "+499)
+
+  }
+ 
+  
+
+  if(type41==="Regular" && type42==="New Hand"){
+    p1=("₹ "+109)
+
+  }
+  else if(type41==="Regular" && type42==="Classic"){
+    p1=("₹ "+109)
+
+  }
+  else if(type41==="Regular" && type42==="Cheese Burst"){
+    p1=("₹ "+184)
+
+  }
+  else if(type41==="Medium" && type42==="New Hand"){
+    p1=("₹ "+239)
+
+  }
+  else if(type41==="Medium" && type42==="Classic"){
+    p1=("₹ "+239)
+
+  }
+  else if(type41==="Medium" && type42==="Cheese Burst"){
+    p1=("₹ "+338)
+
+  }
+  else if(type41==="Large" && type42==="New Hand"){
+    p1=("₹ "+449)
+
+  }
+  else if(type41==="Large" && type42==="Classic"){
+    p1=("₹ "+449)
+
+  }
+  else if(type41==="Large" && type42==="Cheese Burst"){
+    p1=("₹ "+499)
+
+  }
   return (
     <>
     <section className={style.navbarsecond}>
@@ -246,7 +1036,29 @@ function Homepage() {
     <a href="#four"className={style.move}>BEVERAGES</a>
     <a href="#five"className={style.move}>PARTY COMBOS</a>
     <a href="#six"className={style.move}>DESSERT</a>
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </section>
       <section className={style.bestsellers} id="one">
         <div className={style.linemain}></div>
@@ -263,6 +1075,9 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p1}
+                    name="name1"
+                    
                   />
             <h2 className={style.heading1}>Margherita</h2>
             <p className={style.para1}>
@@ -363,6 +1178,14 @@ function Homepage() {
               ADD TO CART
             </button>
           </div>
+
+
+
+
+
+
+
+
           {/* newone */}
           <div className={style.item2}>
             <img
@@ -375,6 +1198,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p2}
                   />
             <h2 className={style.heading1}>Cheese n Corn</h2>
             <p className={style.para1}>
@@ -487,6 +1311,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p3}
                   />
             <h2 className={style.heading1}>Farmhouse</h2>
             <p className={style.para1}>
@@ -599,6 +1424,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p4}
                   />
             <h2 className={style.heading1}>Peppy Paneer</h2>
             <p className={style.para1}>
@@ -714,6 +1540,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p5}
                   />
             <h2 className={style.heading1}>Veggie Paradise</h2>
             <p className={style.para1}>
@@ -828,6 +1655,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p6}
                   />
             <h2 className={style.heading1}>Chicken Sausage</h2>
             <p className={style.para1}>
@@ -941,6 +1769,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p7}
                   />
             <h2 className={style.heading1}>Pepper Barbecue Chicken</h2>
             <p className={style.para1}>
@@ -1086,6 +1915,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p8}
                   />
             <h2 className={style.heading1}>Capsicum</h2>
             <p className={style.para1}>
@@ -1113,26 +1943,7 @@ function Homepage() {
                         Regular
                       </button>
                     </li>
-                    <li>
-                      <button
-                        onClick={handleclick15}
-                        name="Medium"
-                        className={style.dr}
-                      >
-                        {" "}
-                        Medium
-                      </button>
-                    </li>
-                    <li>
-                      <button
-                        onClick={handleclick15}
-                        name="Large"
-                        className={style.dr}
-                      >
-                        {" "}
-                        Large
-                      </button>
-                    </li>
+                    
                   </ul>
                 </li>
               </ul>
@@ -1198,6 +2009,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p9}
                   />
             <h2 className={style.heading1}>Golden Corn</h2>
             <p className={style.para1}>
@@ -1225,26 +2037,7 @@ function Homepage() {
                         Regular
                       </button>
                     </li>
-                    <li>
-                      <button
-                        onClick={handleclick17}
-                        name="Medium"
-                        className={style.dr}
-                      >
-                        {" "}
-                        Medium
-                      </button>
-                    </li>
-                    <li>
-                      <button
-                        onClick={handleclick17}
-                        name="Large"
-                        className={style.dr}
-                      >
-                        {" "}
-                        Large
-                      </button>
-                    </li>
+                
                   </ul>
                 </li>
               </ul>
@@ -1310,6 +2103,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p10}
                   />
             <h2 className={style.heading1}>Onion</h2>
             <p className={style.para1}>
@@ -1335,26 +2129,6 @@ function Homepage() {
                       >
                         {" "}
                         Regular
-                      </button>
-                    </li>
-                    <li>
-                      <button
-                        onClick={handleclick19}
-                        name="Medium"
-                        className={style.dr}
-                      >
-                        {" "}
-                        Medium
-                      </button>
-                    </li>
-                    <li>
-                      <button
-                        onClick={handleclick19}
-                        name="Large"
-                        className={style.dr}
-                      >
-                        {" "}
-                        Large
                       </button>
                     </li>
                   </ul>
@@ -1422,6 +2196,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p11}
                   />
             <h2 className={style.heading1}>Paneer and Onion</h2>
             <p className={style.para1}>
@@ -1449,26 +2224,7 @@ function Homepage() {
                         Regular
                       </button>
                     </li>
-                    <li>
-                      <button
-                        onClick={handleclick21}
-                        name="Medium"
-                        className={style.dr}
-                      >
-                        {" "}
-                        Medium
-                      </button>
-                    </li>
-                    <li>
-                      <button
-                        onClick={handleclick21}
-                        name="Large"
-                        className={style.dr}
-                      >
-                        {" "}
-                        Large
-                      </button>
-                    </li>
+                   
                   </ul>
                 </li>
               </ul>
@@ -1537,6 +2293,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p12}
                   />
             <h2 className={style.heading1}>Tomato</h2>
             <p className={style.para1}>
@@ -1565,26 +2322,7 @@ function Homepage() {
                         Regular
                       </button>
                     </li>
-                    <li>
-                      <button
-                        onClick={handleclick23}
-                        name="Medium"
-                        className={style.dr}
-                      >
-                        {" "}
-                        Medium
-                      </button>
-                    </li>
-                    <li>
-                      <button
-                        onClick={handleclick23}
-                        name="Large"
-                        className={style.dr}
-                      >
-                        {" "}
-                        Large
-                      </button>
-                    </li>
+            
                   </ul>
                 </li>
               </ul>
@@ -1651,6 +2389,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p13}
                   />
             <h2 className={style.heading1}>Paneer Makhani</h2>
             <p className={style.para1}>
@@ -1765,6 +2504,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p14}
                   />
             <h2 className={style.heading1}>Indi Tandoori Paneer</h2>
             <p className={style.para1}>
@@ -1879,6 +2619,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p15}
                   />
             <h2 className={style.heading1}>Fresh Veggie</h2>
             <p className={style.para1}>
@@ -1994,6 +2735,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p16}
                   />
             <h2 className={style.heading1}>Mexican Green Wave</h2>
             <p className={style.para1}>
@@ -2124,6 +2866,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p17}
                   />
             <h2 className={style.heading1}>Chicken Dominator</h2>
             <p className={style.para1}>
@@ -2236,6 +2979,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p18}
                   />
             <h2 className={style.heading1}>Chicken Fiesta</h2>
             <p className={style.para1}>
@@ -2348,6 +3092,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p19}
                   />
             <h2 className={style.heading1}>Chicken Golden Delight</h2>
             <p className={style.para1}>
@@ -2460,6 +3205,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p20}
                   />
             <h2 className={style.heading1}>Indi Chicken Tikka</h2>
             <p className={style.para1}>
@@ -2575,6 +3321,7 @@ function Homepage() {
             <input
                     type="text"
                     className={style.price}
+                    value={p21}
                   />
             <h2 className={style.heading1}>Non Veg Supreme</h2>
             <p className={style.para1}>
