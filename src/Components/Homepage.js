@@ -408,191 +408,192 @@ const handleclick8 = (e) => {
 
 
   if(type5==="Regular" && type6==="New Hand"){
-    p3=("₹ "+209)
+    p3=("₹ "+259)
 
   }
   else if(type5==="Regular" && type6==="Classic"){
-    p3=("₹ "+209)
+    p3=("₹ "+259)
 
   }
   else if(type5==="Regular" && type6==="Cheese Burst"){
-    p3=("₹ "+284)
+    p3=("₹ "+334)
 
   }
   else if(type5==="Medium" && type6==="New Hand"){
-    p3=("₹ "+379)
+    p3=("₹ "+459)
 
   }
   else if(type5==="Medium" && type6==="Classic"){
-    p3=("₹ "+399)
+    p3=("₹ "+339)
 
   }
   else if(type5==="Medium" && type6==="Cheese Burst"){
-    p3=("₹ "+478)
+    p3=("₹ "+558)
 
   }
   else if(type5==="Large" && type6==="New Hand"){
-    p3=("₹ "+609)
+    p3=("₹ "+689)
 
   }
   else if(type5==="Large" && type6==="Classic"){
-    p3=("₹ "+629)
+    p3=("₹ "+689)
 
   }
   else if(type5==="Large" && type6==="Cheese Burst"){
-    p3=("₹ "+699)
+    p3=("₹ "+759)
 
   }
+
 
 
   if(type7==="Regular" && type8==="New Hand"){
-    p4=("₹ "+209)
+    p4=("₹ "+259)
 
   }
   else if(type7==="Regular" && type8==="Classic"){
-    p4=("₹ "+209)
+    p4=("₹ "+259)
 
   }
   else if(type7==="Regular" && type8==="Cheese Burst"){
-    p4=("₹ "+284)
+    p4=("₹ "+334)
 
   }
   else if(type7==="Medium" && type8==="New Hand"){
-    p4=("₹ "+379)
+    p4=("₹ "+459)
 
   }
   else if(type7==="Medium" && type8==="Classic"){
-    p4=("₹ "+399)
+    p4=("₹ "+459)
 
   }
   else if(type7==="Medium" && type8==="Cheese Burst"){
-    p4=("₹ "+478)
+    p4=("₹ "+558)
 
   }
   else if(type7==="Large" && type8==="New Hand"){
-    p4=("₹ "+609)
+    p4=("₹ "+689)
 
   }
   else if(type7==="Large" && type8==="Classic"){
-    p4=("₹ "+629)
+    p4=("₹ "+689)
 
   }
   else if(type7==="Large" && type8==="Cheese Burst"){
-    p4=("₹ "+699)
+    p4=("₹ "+789)
 
   }
 
 
   if(type9==="Regular" && type10==="New Hand"){
-    p5=("₹ "+209)
+    p5=("₹ "+259)
 
   }
   else if(type9==="Regular" && type10==="Classic"){
-    p5=("₹ "+209)
+    p5=("₹ "+259)
 
   }
   else if(type9==="Regular" && type10==="Cheese Burst"){
-    p5=("₹ "+284)
+    p5=("₹ "+334)
 
   }
   else if(type9==="Medium" && type10==="New Hand"){
-    p5=("₹ "+379)
+    p5=("₹ "+459)
 
   }
   else if(type9==="Medium" && type10==="Classic"){
-    p5=("₹ "+399)
+    p5=("₹ "+459)
 
   }
   else if(type9==="Medium" && type10==="Cheese Burst"){
-    p5=("₹ "+478)
+    p5=("₹ "+558)
 
   }
   else if(type9==="Large" && type10==="New Hand"){
-    p5=("₹ "+609)
+    p5=("₹ "+689)
 
   }
   else if(type9==="Large" && type10==="Classic"){
-    p5=("₹ "+629)
+    p5=("₹ "+689)
 
   }
   else if(type9==="Large" && type10==="Cheese Burst"){
-    p5=("₹ "+699)
+    p5=("₹ "+749)
 
   }
 
  
   if(type11==="Regular" && type12==="New Hand"){
-    p6=("₹ "+209)
+    p6=("₹ "+199)
 
   }
   else if(type11==="Regular" && type12==="Classic"){
-    p6=("₹ "+209)
+    p6=("₹ "+199)
 
   }
   else if(type11==="Regular" && type12==="Cheese Burst"){
-    p6=("₹ "+284)
+    p6=("₹ "+274)
 
   }
   else if(type11==="Medium" && type12==="New Hand"){
-    p6=("₹ "+379)
+    p6=("₹ "+369)
 
   }
   else if(type11==="Medium" && type12==="Classic"){
-    p6=("₹ "+399)
+    p6=("₹ "+369)
 
   }
   else if(type11==="Medium" && type12==="Cheese Burst"){
-    p6=("₹ "+478)
+    p6=("₹ "+468)
 
   }
   else if(type11==="Large" && type12==="New Hand"){
-    p6=("₹ "+609)
+    p6=("₹ "+599)
 
   }
   else if(type11==="Large" && type12==="Classic"){
-    p6=("₹ "+629)
+    p6=("₹ "+599)
 
   }
   else if(type11==="Large" && type12==="Cheese Burst"){
-    p6=("₹ "+699)
+    p6=("₹ "+689)
 
   }
 
   
   if(type13==="Regular" && type14==="New Hand"){
-    p7=("₹ "+209)
+    p7=("₹ "+249)
 
   }
   else if(type13==="Regular" && type14==="Classic"){
-    p7=("₹ "+209)
+    p7=("₹ "+249)
 
   }
   else if(type13==="Regular" && type14==="Cheese Burst"){
-    p7=("₹ "+284)
+    p7=("₹ "+324)
 
   }
   else if(type13==="Medium" && type14==="New Hand"){
-    p7=("₹ "+379)
+    p7=("₹ "+449)
 
   }
   else if(type13==="Medium" && type14==="Classic"){
-    p7=("₹ "+399)
+    p7=("₹ "+449)
 
   }
   else if(type13==="Medium" && type14==="Cheese Burst"){
-    p1=("₹ "+478)
+    p1=("₹ "+548)
 
   }
   else if(type13==="Large" && type14==="New Hand"){
-    p7=("₹ "+609)
+    p7=("₹ "+669)
 
   }
   else if(type13==="Large" && type14==="Classic"){
-    p7=("₹ "+629)
+    p7=("₹ "+669)
 
   }
   else if(type13==="Large" && type14==="Cheese Burst"){
-    p7=("₹ "+699)
+    p7=("₹ "+749)
 
   }
 
@@ -600,111 +601,111 @@ const handleclick8 = (e) => {
 
 
   if(type15==="Regular" && type16==="New Hand"){
-    p8=("₹ "+209)
+    p8=("₹ "+119)
 
   }
   else if(type15==="Regular" && type16==="Classic"){
-    p8=("₹ "+209)
+    p8=("₹ "+89)
 
   }
   else if(type15==="Regular" && type16==="Cheese Burst"){
-    p8=("₹ "+284)
+    p8=("₹ "+149)
 
   }
 
 
   if(type17==="Regular" && type18==="New Hand"){
-    p9=("₹ "+209)
+    p9=("₹ "+119)
 
   }
   else if(type17==="Regular" && type18==="Classic"){
-    p9=("₹ "+209)
+    p9=("₹ "+89)
 
   }
   else if(type17==="Regular" && type18==="Cheese Burst"){
-    p9=("₹ "+284)
+    p9=("₹ "+149)
 
   }
 
   
   if(type19==="Regular" && type20==="New Hand"){
-    p10=("₹ "+209)
+    p10=("₹ "+99)
 
   }
   else if(type19==="Regular" && type20==="Classic"){
-    p10=("₹ "+209)
+    p10=("₹ "+69)
 
   }
   else if(type19==="Regular" && type20==="Cheese Burst"){
-    p10=("₹ "+284)
+    p10=("₹ "+139)
 
   }
 
   
   if(type21==="Regular" && type22==="New Hand"){
-    p11=("₹ "+209)
+    p11=("₹ "+149)
 
   }
   else if(type21==="Regular" && type22==="Classic"){
-    p11=("₹ "+209)
+    p11=("₹ "+119)
 
   }
   else if(type21==="Regular" && type22==="Cheese Burst"){
-    p11=("₹ "+284)
+    p11=("₹ "+169)
 
   }
   
 
 
   if(type23==="Regular" && type24==="New Hand"){
-    p12=("₹ "+209)
+    p12=("₹ "+89)
 
   }
   else if(type23==="Regular" && type24==="Classic"){
-    p12=("₹ "+209)
+    p12=("₹ "+59)
 
   }
   else if(type23==="Regular" && type24==="Cheese Burst"){
-    p12=("₹ "+284)
+    p12=("₹ "+129)
 
   }
   
 
 
   if(type25==="Regular" && type26==="New Hand"){
-    p13=("₹ "+109)
+    p13=("₹ "+299)
 
   }
   else if(type25==="Regular" && type26==="Classic"){
-    p13=("₹ "+109)
+    p13=("₹ "+299)
 
   }
   else if(type25==="Regular" && type26==="Cheese Burst"){
-    p13=("₹ "+184)
+    p13=("₹ "+374)
 
   }
   else if(type25==="Medium" && type26==="New Hand"){
-    p13=("₹ "+239)
+    p13=("₹ "+549)
 
   }
   else if(type25==="Medium" && type26==="Classic"){
-    p1=("₹ "+239)
+    p1=("₹ "+549)
 
   }
   else if(type25==="Medium" && type26==="Cheese Burst"){
-    p13=("₹ "+338)
+    p13=("₹ "+648)
 
   }
   else if(type25==="Large" && type26==="New Hand"){
-    p13=("₹ "+449)
+    p13=("₹ "+799)
 
   }
   else if(type25==="Large" && type26==="Classic"){
-    p13=("₹ "+449)
+    p13=("₹ "+799)
 
   }
   else if(type25==="Large" && type26==="Cheese Burst"){
-    p13=("₹ "+499)
+    p13=("₹ "+899)
 
   }
 
@@ -713,39 +714,39 @@ const handleclick8 = (e) => {
 
 
   if(type27==="Regular" && type28==="New Hand"){
-    p14=("₹ "+109)
+    p14=("₹ "+299)
 
   }
   else if(type27==="Regular" && type28==="Classic"){
-    p14=("₹ "+109)
+    p14=("₹ "+299)
 
   }
   else if(type27==="Regular" && type28==="Cheese Burst"){
-    p14=("₹ "+184)
+    p14=("₹ "+374)
 
   }
   else if(type27==="Medium" && type28==="New Hand"){
-    p14=("₹ "+239)
+    p14=("₹ "+549)
 
   }
   else if(type27==="Medium" && type28==="Classic"){
-    p14=("₹ "+239)
+    p14=("₹ "+549)
 
   }
   else if(type27==="Medium" && type28==="Cheese Burst"){
-    p14=("₹ "+338)
+    p14=("₹ "+648)
 
   }
   else if(type27==="Large" && type28==="New Hand"){
-    p14=("₹ "+449)
+    p14=("₹ "+799)
 
   }
   else if(type27==="Large" && type28==="Classic"){
-    p14=("₹ "+449)
+    p14=("₹ "+799)
 
   }
   else if(type27==="Large" && type28==="Cheese Burst"){
-    p14=("₹ "+499)
+    p14=("₹ "+899)
 
   }
 
@@ -753,39 +754,39 @@ const handleclick8 = (e) => {
 
   
   if(type29==="Regular" && type30==="New Hand"){
-    p15=("₹ "+109)
+    p15=("₹ "+209)
 
   }
   else if(type29==="Regular" && type30==="Classic"){
-    p15=("₹ "+109)
+    p15=("₹ "+209)
 
   }
   else if(type29==="Regular" && type30==="Cheese Burst"){
-    p15=("₹ "+184)
+    p15=("₹ "+284)
 
   }
   else if(type29==="Medium" && type39==="New Hand"){
-    p15=("₹ "+239)
+    p15=("₹ "+379)
 
   }
   else if(type29==="Medium" && type30==="Classic"){
-    p15=("₹ "+239)
+    p15=("₹ "+379)
 
   }
   else if(type29==="Medium" && type30==="Cheese Burst"){
-    p15=("₹ "+338)
+    p15=("₹ "+478)
 
   }
   else if(type29==="Large" && type30==="New Hand"){
-    p15=("₹ "+449)
+    p15=("₹ "+609)
 
   }
   else if(type29==="Large" && type30==="Classic"){
-    p15=("₹ "+449)
+    p15=("₹ "+629)
 
   }
   else if(type29==="Large" && type30==="Cheese Burst"){
-    p15=("₹ "+499)
+    p15=("₹ "+699)
 
   }
 
@@ -793,39 +794,39 @@ const handleclick8 = (e) => {
 
   
   if(type31==="Regular" && type32==="New Hand"){
-    p16=("₹ "+109)
+    p16=("₹ "+259)
 
   }
   else if(type31==="Regular" && type32==="Classic"){
-    p16=("₹ "+109)
+    p16=("₹ "+259)
 
   }
   else if(type31==="Regular" && type32==="Cheese Burst"){
-    p16=("₹ "+184)
+    p16=("₹ "+334)
 
   }
   else if(type31==="Medium" && type32==="New Hand"){
-    p16=("₹ "+239)
+    p16=("₹ "+459)
 
   }
   else if(type31==="Medium" && type32==="Classic"){
-    p16=("₹ "+239)
+    p16=("₹ "+459)
 
   }
   else if(type31==="Medium" && type32==="Cheese Burst"){
-    p16=("₹ "+338)
+    p16=("₹ "+558)
 
   }
   else if(type31==="Large" && type32==="New Hand"){
-    p16=("₹ "+449)
+    p16=("₹ "+689)
 
   }
   else if(type31==="Large" && type32==="Classic"){
-    p16=("₹ "+449)
+    p16=("₹ "+699)
 
   }
   else if(type31==="Large" && type32==="Cheese Burst"){
-    p16=("₹ "+499)
+    p16=("₹ "+799)
 
   }
 
@@ -834,39 +835,39 @@ const handleclick8 = (e) => {
 
 
   if(type33==="Regular" && type34==="New Hand"){
-    p17=("₹ "+109)
+    p17=("₹ "+359)
 
   }
   else if(type33==="Regular" && type34==="Classic"){
-    p17=("₹ "+109)
+    p17=("₹ "+359)
 
   }
   else if(type33==="Regular" && type34==="Cheese Burst"){
-    p17=("₹ "+184)
+    p17=("₹ "+434)
 
   }
   else if(type33==="Medium" && type34==="New Hand"){
-    p17=("₹ "+239)
+    p17=("₹ "+599)
 
   }
   else if(type33==="Medium" && type34==="Classic"){
-    p17=("₹ "+239)
+    p17=("₹ "+599)
 
   }
   else if(type33==="Medium" && type34==="Cheese Burst"){
-    p17=("₹ "+338)
+    p17=("₹ "+698)
 
   }
   else if(type33==="Large" && type34==="New Hand"){
-    p17=("₹ "+449)
+    p17=("₹ "+919)
 
   }
   else if(type33==="Large" && type4==="Classic"){
-    p17=("₹ "+449)
+    p17=("₹ "+929)
 
   }
   else if(type33==="Large" && type34==="Cheese Burst"){
-    p17=("₹ "+499)
+    p17=("₹ "+1099)
 
   }
 
@@ -875,156 +876,156 @@ const handleclick8 = (e) => {
 
 
   if(type35==="Regular" && type36==="New Hand"){
-    p18=("₹ "+109)
+    p18=("₹ "+309)
 
   }
   else if(type35==="Regular" && type36==="Classic"){
-    p18=("₹ "+109)
+    p18=("₹ "+309)
 
   }
   else if(type35==="Regular" && type36==="Cheese Burst"){
-    p18=("₹ "+184)
+    p18=("₹ "+384)
 
   }
   else if(type35==="Medium" && type36==="New Hand"){
-    p18=("₹ "+239)
+    p18=("₹ "+559)
 
   }
   else if(type35==="Medium" && type36==="Classic"){
-    p18=("₹ "+239)
+    p18=("₹ "+559)
 
   }
   else if(type35==="Medium" && type36==="Cheese Burst"){
-    p18=("₹ "+338)
+    p18=("₹ "+658)
 
   }
   else if(type35==="Large" && type36==="New Hand"){
-    p18=("₹ "+449)
+    p18=("₹ "+829)
 
   }
   else if(type35==="Large" && type36==="Classic"){
-    p18=("₹ "+449)
+    p18=("₹ "+829)
 
   }
   else if(type35==="Large" && type36==="Cheese Burst"){
-    p18=("₹ "+499)
+    p18=("₹ "+999)
 
   }
 
 
  
   if(type37==="Regular" && type38==="New Hand"){
-    p19=("₹ "+109)
+    p19=("₹ "+309)
 
   }
   else if(type37==="Regular" && type38==="Classic"){
-    p19=("₹ "+109)
+    p19=("₹ "+309)
 
   }
   else if(type37==="Regular" && type38==="Cheese Burst"){
-    p19=("₹ "+184)
+    p19=("₹ "+384)
 
   }
   else if(type37==="Medium" && type38==="New Hand"){
-    p19=("₹ "+239)
+    p19=("₹ "+559)
 
   }
   else if(type37==="Medium" && type38==="Classic"){
-    p19=("₹ "+239)
+    p19=("₹ "+559)
 
   }
   else if(type37==="Medium" && type38==="Cheese Burst"){
-    p19=("₹ "+338)
+    p19=("₹ "+658)
 
   }
   else if(type37==="Large" && type38==="New Hand"){
-    p19=("₹ "+449)
+    p19=("₹ "+829)
 
   }
   else if(type37==="Large" && type38==="Classic"){
-    p19=("₹ "+449)
+    p19=("₹ "+829)
 
   }
   else if(type37==="Large" && type38==="Cheese Burst"){
-    p19=("₹ "+499)
+    p19=("₹ "+999)
 
   }
   
 
 
   if(type39==="Regular" && type40==="New Hand"){
-    p20=("₹ "+109)
+    p20=("₹ "+359)
 
   }
   else if(type39==="Regular" && type40==="Classic"){
-    p20=("₹ "+109)
+    p20=("₹ "+359)
 
   }
   else if(type39==="Regular" && type40==="Cheese Burst"){
-    p20=("₹ "+184)
+    p20=("₹ "+434)
 
   }
   else if(type39==="Medium" && type40==="New Hand"){
-    p20=("₹ "+239)
+    p20=("₹ "+599)
 
   }
   else if(type39==="Medium" && type40==="Classic"){
-    p20=("₹ "+239)
+    p20=("₹ "+599)
 
   }
   else if(type39==="Medium" && type40==="Cheese Burst"){
-    p20=("₹ "+338)
+    p20=("₹ "+698)
 
   }
   else if(type39==="Large" && type40==="New Hand"){
-    p20=("₹ "+449)
+    p20=("₹ "+919)
 
   }
   else if(type39==="Large" && type40==="Classic"){
-    p20=("₹ "+449)
+    p20=("₹ "+919)
 
   }
   else if(type39==="Large" && type40==="Cheese Burst"){
-    p20=("₹ "+499)
+    p20=("₹ "+1099)
 
   }
  
   
 
   if(type41==="Regular" && type42==="New Hand"){
-    p21=("₹ "+109)
+    p21=("₹ "+359)
 
   }
   else if(type41==="Regular" && type42==="Classic"){
-    p21=("₹ "+109)
+    p21=("₹ "+359)
 
   }
   else if(type41==="Regular" && type42==="Cheese Burst"){
-    p21=("₹ "+184)
+    p21=("₹ "+434)
 
   }
   else if(type41==="Medium" && type42==="New Hand"){
-    p21=("₹ "+239)
+    p21=("₹ "+599)
 
   }
   else if(type41==="Medium" && type42==="Classic"){
-    p21=("₹ "+239)
+    p21=("₹ "+599)
 
   }
   else if(type41==="Medium" && type42==="Cheese Burst"){
-    p21=("₹ "+338)
+    p21=("₹ "+698)
 
   }
   else if(type41==="Large" && type42==="New Hand"){
-    p21=("₹ "+449)
+    p21=("₹ "+919)
 
   }
   else if(type41==="Large" && type42==="Classic"){
-    p21=("₹ "+449)
+    p21=("₹ "+919)
 
   }
   else if(type41==="Large" && type42==="Cheese Burst"){
-    p21=("₹ "+499)
+    p21=("₹ "+1099)
 
   }
   return (
