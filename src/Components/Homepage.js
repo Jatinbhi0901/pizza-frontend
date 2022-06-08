@@ -1077,7 +1077,6 @@ const handleclick8 = (e) => {
                     type="text"
                     className={style.price}
                     value={p1}
-                    name="name1"
                     
                   />
             <h2 className={style.heading1}>Margherita</h2>

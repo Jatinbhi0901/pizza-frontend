@@ -1,0 +1,145 @@
+
+.maincart{
+    width: 85%;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 1rem;
+    box-shadow: rgb(87, 88, 88) 10px 10px 15px;
+    margin-top: 96px;
+    padding-top: 16px;
+}
+
+.cart{
+    width: 80%;
+    margin: auto;
+    background-color:white;
+    display: flex;
+    padding: 2rem;
+    gap: 100px;
+    height: fit-content; 
+}
+.cartinfo1{
+    width: 375px;
+    font-size: 18px;
+    margin-left:-40px;
+
+    font-weight: bolder;
+    text-align: left;
+    margin-top: 1rem;
+    /* background:transparent;
+    border: none; */
+}
+.cartinfo2{
+    width: 300px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    height: 70px;
+    margin-left: -7.3rem;
+    /* background:transparent;
+    border: none; */
+    resize: none;
+}
+.cartinfo3{
+    width: 200px;
+    font-size: 15px;
+    margin-left: -13.5rem;
+    font-weight: small;
+    text-align: left;
+    /* background:transparent;
+    border: none */
+}
+.cartinfo4{
+    width: 200px;
+    font-size: 15px;
+    margin-left: -13.5rem;
+    font-weight: small;
+    text-align: left;
+    /* background:transparent;
+    border: none */
+}
+.cartinfo5{
+    width: 25px;
+    font-size: 15px;
+    font-weight: small;
+    text-align: center;
+    height: 25px;
+    /* border: none;
+    background:transparent; */
+}
+.cartinfooo{
+    width: 150px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: right;
+    height: 25px;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.plusminus{
+    margin-left: -8rem;
+}
+.plus{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+}
+.minus{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+}
+.pl{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-color: #D3D3D3;
+}
+.mi{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-color: #D3D3D3;
+}
+.shopping{
+    text-align: left;
+    margin-left: 112px;
+}
+.subtotal{
+    text-align:right;
+    margin-right: 75px;
+    
+}
+.cartimg{
+    float: left;
+    margin-left: 32px;
+
+}
+.linecart {
+    border-top: 2px solid #D3D3D3;
+    width: 1098px;
+    margin: auto;
+    margin-left:99px;
+    margin-bottom: 16px;
+}
+.linetotal {
+    border-top: 2px solid #D3D3D3;
+    width: 1098px;
+    margin: auto;
+    margin-left:99px;
+    margin-top: 16px;
+}
+.subtotal1{
+    width: 150px;
+    position: relative;
+    top: -16px;
+    margin-left: 990px;
+    text-align: right;
+    font-size: large;
+    background:transparent;
+    border: none
+}
+.cartprice{
+    margin-left: -6.5rem;
+}

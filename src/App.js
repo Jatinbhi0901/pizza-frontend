@@ -8,6 +8,7 @@ import Footer from "./Components/Footer"
 import Menu from "./Components/Menu"
 import QWER from "./Components/Imp"
 import  Profile from "./Components/Profile";
+import  Cart from "./Components/Cart";
 
 
 
@@ -24,6 +25,7 @@ function App() {
             <Route path="/footer" element={ <Footer/>}/> 
             <Route path="/menu" element={ <Menu/>}/> 
             <Route path="/profile" element={ <Profile/>}/> 
+            <Route path="/cart" element={ <Cart/>}/> 
 
             <Route path="/imp" element={ <QWER/>}/> 
             
