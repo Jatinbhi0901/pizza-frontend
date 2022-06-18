@@ -18,7 +18,7 @@ function Cart() {
   return (
     <>
       <section className={style.maincart}>
-        <h1 className={style.shopping}>Shopping Cart</h1>
+        <h1 className={style.shopping}>My Cart</h1>
         <div className={style.linecart}></div>
         <section className={style.cart}>
           <div className={style.cartimg}>
@@ -65,23 +65,7 @@ function Cart() {
         </section>
 
         {/* start new section */}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+      
 
         <div className={style.linetotal}></div>
         <h1 className={style.subtotal}>Subtotal</h1>

@@ -9,7 +9,7 @@ html {
 }
 .navbarsecond{
     width: 100%;
-    display: flex;
+    display: flex;  
     margin: auto;
     gap: 60px;
     padding: 10px;
@@ -17,6 +17,7 @@ html {
     position:fixed;
      top:0; 
     background-color: white;
+    z-index: 500;
     
 }
 .move{
@@ -290,3 +291,9 @@ ul li ul.dropdown2 li {
 }
 
 
+.cardlist{
+    display: grid;
+    gap: 50px;
+grid-template-columns:300px 300px 300px 300px ;
+margin-left: 50px;
+}
