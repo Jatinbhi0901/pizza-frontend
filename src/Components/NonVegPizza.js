@@ -4,12 +4,13 @@ import axios from "axios"
 
 const Sizes = {regular:"Regular",medium:"Medium",large:"Large"}
 const Crust= {newHandTossed:"New Hand",cheeseBurst:"Cheese Burst",freshPan:"Fresh Pan"} 
-function Bestsellercard({pizza}){
+function NonVegPizzaCard({pizza}){
     const [result1, setResult1] = useState("regular");
   const handleclick1 = (e) => {
     const type=e.target.name
     setResult1(type);
     const pizzaname=""+type+result2[0].toUpperCase()+result2.slice(1)+"Price"
+    // console.log(pizzaname)
     setprice(pizza.size[type].crust[result2][pizzaname])
   };
   const [result2, setResult2] = useState("newHandTossed");
@@ -151,11 +152,11 @@ function Bestsellercard({pizza}){
       </section>
     )
 }
-function Bestsellers() {
+function NonVegPizza() {
     const [pizzas,setPizzas]=useState([]);
     useEffect(()=>{
         const fetchData=async()=>{
-            const res=await axios.get("http://localhost:4000/pizzaData/getPizza/BestSeller")
+            const res=await axios.get("http://localhost:4000/pizzaData/getPizza/Non Veg Pizza")
             console.log(res.data)
             setPizzas(res.data.pizza)
         }
@@ -166,10 +167,10 @@ function Bestsellers() {
     <>
      <section className={style.bestsellers} id="one">
         <div className={style.linemain}></div>
-        <div className={style.mainhead}>BESTSELLERS</div>
+        <div className={style.mainhead}>NON-VEG-PIZZA</div>
         <div className={style.cardlist}>
         {pizzas.map((pizza,index)=>(
-            <Bestsellercard key={`card_${index}`} pizza={pizza}/>
+            <NonVegPizzaCard key={`card_${index}`} pizza={pizza}/>
         ))}
         </div>
        
@@ -179,4 +180,4 @@ function Bestsellers() {
   )
 }
 
-export default Bestsellers
+export default NonVegPizza

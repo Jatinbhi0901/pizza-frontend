@@ -10,7 +10,13 @@ import QWER from "./Components/Imp"
 import  Profile from "./Components/Profile";
 import  Cart from "./Components/Cart";
 import { useState } from "react";
+import VegPizza from "./Components/VegPizza";
+import NonVegPizza from "./Components/NonVegPizza";
 import Bestsellers from "./Components/Bestsellers";
+import Beverages from "./Components/Beverages";
+import Desserts from "./Components/Dessert";
+import PartyCombos from "./Components/PartyCombos";
+
 
 
 
@@ -25,6 +31,14 @@ const [cart, setCart]= useState([])
             <Route path="/register" element={ <Register/>}/> 
             <Route path="/navigationbar" element={ <Navigationbar/>}/> 
             <Route path="/homepage" element={ <Homepage/>} />
+            <Route path="/bestsellers" element={ <Bestsellers/>} />
+            <Route path="/vegpizza" element={ <VegPizza/>} />
+            <Route path="/nonvegpizza" element={ <NonVegPizza/>} />
+            <Route path="/beverages" element={ <Beverages/>} />
+            <Route path="/desserts" element={ <Desserts/>} />
+            <Route path="/partycombos" element={ <PartyCombos/>} />
+
+           
             
             <Route path="/footer" element={ <Footer/>}/> 
             <Route path="/menu" element={ <Menu/>}/> 
