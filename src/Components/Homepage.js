@@ -28,9 +28,7 @@ function Homepage() {
      <NonVegPizza/>
      <Beverages/>
      <PartyCombos/>
-
-     <Dessert/>
-     
+     <Dessert/>  
      </>
   );
 }

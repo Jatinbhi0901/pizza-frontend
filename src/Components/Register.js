@@ -92,7 +92,7 @@ function Register() {
                 <label htmlFor="agree">I agree, all terms and Conditions</label>
               </div>
 
-              <button className={style.btn} type="submit">
+              <button className={style.btn} type="submit" onClick={ok}>
                 Register
               </button>
             </div>

@@ -19,17 +19,17 @@ function navigationbar() {
                 <Link to=""className={style.dr}>Discover ▾</Link>
                 <ul className={style.dropdown}>
                   <li>
-                    <Link to="" className={style.dr}>
+                    <Link to="/homepage" className={style.dr}>
                       Menu
                     </Link>
                   </li>
                   <li>
-                    <Link to="" className={style.dr}>
+                    <Link to="/login" className={style.dr}>
                       Deals
                     </Link>
                   </li>
                   <li>
-                    <Link to="" className={style.dr}>
+                    <Link to="/bestsellers" className={style.dr}>
                       Bestsellers
                     </Link>
                   </li>
@@ -61,8 +61,8 @@ function navigationbar() {
           </div>
 
           <div className={style.box5}>
-            <Link to="/login" className={style.signup}>
-              Sign Up
+            <Link to="/profile" className={style.signup}>
+              Profile
             </Link>
           </div>
         </div>

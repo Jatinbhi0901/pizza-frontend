@@ -16,20 +16,26 @@ import Bestsellers from "./Components/Bestsellers";
 import Beverages from "./Components/Beverages";
 import Desserts from "./Components/Dessert";
 import PartyCombos from "./Components/PartyCombos";
+import LandingPage from "./Components/LandingPage";
+import Transition from "./Components/Transition";
+
 
 
 
 
 function App() {
 
-const [cart, setCart]= useState([])
+// const [cart, setCart]= useState([])
   return (
     <div>
+      
       <BrowserRouter>
         <Routes>
+            <Route path="/" element={ <Login/>}/>
             <Route path="/login" element={ <Login/>}/>    
             <Route path="/register" element={ <Register/>}/> 
-            <Route path="/navigationbar" element={ <Navigationbar/>}/> 
+            <Route path="/navigationbar" element={ <Navigationbar/>}/>
+            <Route path="/landingpage" element={ <LandingPage/>}/>
             <Route path="/homepage" element={ <Homepage/>} />
             <Route path="/bestsellers" element={ <Bestsellers/>} />
             <Route path="/vegpizza" element={ <VegPizza/>} />
@@ -44,6 +50,7 @@ const [cart, setCart]= useState([])
             <Route path="/menu" element={ <Menu/>}/> 
             <Route path="/profile" element={ <Profile/>}/> 
             <Route path="/cart" element={ <Cart/>}/> 
+            <Route path="/transition" element={ <Transition/>} />
             
 
             <Route path="/imp" element={ <QWER/>}/> 

@@ -1,0 +1,26 @@
+@keyframes slider {
+    0% {
+      background-image: url(../Images/i1.jpg);
+    }
+    33.33% {
+      background-image: url(../Images/i2.jpg);
+    }
+    66.66% {
+      background-image: url(../Images/i3.jpg);
+    }
+    100% {
+        background-image: url(../Images/i1.jpg);
+    }
+  }
+  .transition{
+    width: 90%;
+    margin: auto;
+    height: 25rem;
+    object-fit: fill;
+    transform: -50% -50%;
+    background-size: 100% 100%;
+    animation: slider 12s infinite;
+    opacity: inherit;
+    overflow: hidden;
+    margin-top: 1.5rem;
+  }

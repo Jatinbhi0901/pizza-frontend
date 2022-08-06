@@ -48,7 +48,7 @@ function Beverages() {
     
   return (
     <>
-     <section className={style.bestsellers} id="one">
+     <section className={style.bestsellers} id="four">
         <div className={style.linemain}></div>
         <div className={style.mainhead}>BEVERAGES</div>
         <div className={style.cardlist}>

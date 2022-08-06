@@ -48,7 +48,7 @@ function PartyCombos() {
     
   return (
     <>
-     <section className={style.bestsellers} id="one">
+     <section className={style.bestsellers} id="five">
         <div className={style.linemain}></div>
         <div className={style.mainhead}>PARTY COMBOS</div>
         <div className={style.cardlist}>

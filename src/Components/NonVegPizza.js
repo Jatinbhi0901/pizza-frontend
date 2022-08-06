@@ -165,7 +165,7 @@ function NonVegPizza() {
     // console.log(pizzas)
   return (
     <>
-     <section className={style.bestsellers} id="one">
+     <section className={style.bestsellers} id="three">
         <div className={style.linemain}></div>
         <div className={style.mainhead}>NON-VEG-PIZZA</div>
         <div className={style.cardlist}>

@@ -6,8 +6,8 @@
     width: 99%;
     height: 2cm;
     background: -webkit-linear-gradient(left, #12cbc4, #2e86de, #a55eea);
-  
     margin: auto;
+    box-shadow: rgb(87, 88, 88) 5px 5px 10px;
   }
   .menu1{
     display: flex;

@@ -1,33 +1,114 @@
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.explore{
-    width: 98%;
-    background-color: aqua;
-    margin: auto;
+  
     
-}
-.exploremenu{
-    font-size: 25px;
-    text-align: left;
+    * {
+        font-family: "proxima-nova," sans-serif;
+    }
+    .row11 {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        gap: 50px;
+        padding: 15px;
+    }
+    .row12 {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        gap: 50px;
+        padding: 15px;
+    }
+    .item11 {
+        width: 300px;
+        height: fit-content;
+        background-color: white;
+        border-radius: 5px;
+        padding-bottom: 20px;
+        margin-left: 2px;
+        box-shadow: rgb(87, 88, 88) 10px 10px 15px;
+    }
     
+    .item12 {
+        width: 300px;
+        height: fit-content;
+        background-color: white;
+        border-radius: 5px;
+        padding-bottom: 20px;
+        box-shadow: rgb(87, 88, 88) 10px 10px 15px;
+    }
     
-}
-.row1{
-    text-align: center;
-    display: flex;
-    gap: 4rem;
-    margin-left: 5rem;
-    margin-top: 2rem;
+    .item13 {
+        width: 300px;
+        height: fit-content;
+        background-color: white;
+        border-radius: 5px;
+        padding-bottom: 20px;
+        box-shadow: rgb(87, 88, 88) 10px 10px 15px;
+    }
     
+    .item14 {
+        width: 300px;
+        height: fit-content;
+        background-color: white;
+        border-radius: 5px;
+        padding-bottom: 20px;
+        box-shadow: rgb(87, 88, 88) 10px 10px 15px;
+    }
+    .item15 {
+        width: 300px;
+        height: fit-content;
+        background-color: white;
+        border-radius: 5px;
+        padding-bottom: 20px;
+        box-shadow: rgb(87, 88, 88) 10px 10px 15px;
+        margin-top: 2rem;
+        margin-left: 3px;
+    }
+    .item16 {
+        width: 300px;
+        height: fit-content;
+        background-color: white;
+        border-radius: 5px;
+        padding-bottom: 20px;
+        box-shadow: rgb(87, 88, 88) 10px 10px 15px;
+        margin-top: 2rem;
+    }
     
-}
-.imgresponsive{
-    border-radius: 70px;
-}
-.heading{
-    color: black;
-    font-size: 20px;
-}
-
+    .border1 {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    
+    .line {
+        border-top: 0.1px solid #D3D3D3;
+        width: 270px;
+        margin-left: 15px;
+    }
+    
+    .heading11 {
+        text-align: left;
+        margin-left: 10px;
+        font-size: large;
+    }
+    .heading2 {
+        text-align: left;
+        margin-left: 10px;
+        font-size: large;
+        margin-top: -60px;
+    }
+    .para11 {
+        text-align: left;
+        margin-left: 10px;
+    }
+    
+    .addtocart1 {
+        width: 130px;
+        height: 30px;
+        color: rgb(0, 171, 0);
+        border-color: rgb(0, 171, 0);
+        background-color: white;
+        margin-top: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
     

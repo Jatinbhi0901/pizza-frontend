@@ -4,10 +4,11 @@
 
 }
 .footer{
-    width: 98%;
+    width: 99%;
     margin: auto;
     background: -webkit-linear-gradient(left, #12cbc4, #2e86de, #a55eea);
     padding-top: 2rem;
+    margin-top: 1rem;
 }
 .f2:hover{
     color: white;

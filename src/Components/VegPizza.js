@@ -165,7 +165,7 @@ function VegPizza() {
     // console.log(pizzas)
   return (
     <>
-     <section className={style.bestsellers} id="one">
+     <section className={style.bestsellers} id="two">
         <div className={style.linemain}></div>
         <div className={style.mainhead}>VEG-PIZZA</div>
         <div className={style.cardlist}>
